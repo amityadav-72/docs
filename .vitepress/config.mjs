@@ -199,12 +199,12 @@ export default defineConfig({
 
     // Edit link on GitHub - Allows updating in README/Markdown directly!
     editLink: {
-      pattern: 'https://github.com/mscprpcem/docs/edit/main/:path',
+      pattern: 'https://github.com/amityadav-72/docs/edit/main/:path',
       text: 'Edit this page on GitHub'
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/mscprpcem' }
+      { icon: 'github', link: 'https://github.com/amityadav-72/docs' }
     ],
 
     footer: {
