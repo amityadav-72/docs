@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <!-- Background Ambient Glow -->
+    <radialGradient id="ambientGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00C7FF" stop-opacity="0.35"/>
+      <stop offset="50%" stop-color="#0078D4" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Microsoft Tile Gradients -->
+    <linearGradient id="tileRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F87171"/>
+      <stop offset="100%" stop-color="#EF4444"/>
+    </linearGradient>
+
+    <linearGradient id="tileGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34D399"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+
+    <linearGradient id="tileBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#0078D4"/>
+    </linearGradient>
+
+    <linearGradient id="tileYellow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCD34D"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+
+    <!-- Ring Gradient -->
+    <linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00C7FF"/>
+      <stop offset="50%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#0078D4"/>
+    </linearGradient>
+
+    <!-- Filter for Glows -->
+    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Ambient Backdrop -->
+  <circle cx="200" cy="200" r="180" fill="url(#ambientGlow)"/>
+
+  <!-- Rotating Orbit Rings -->
+  <circle cx="200" cy="200" r="160" fill="none" stroke="url(#ringGrad)" stroke-width="2.5" stroke-dasharray="12 8" opacity="0.6"/>
+  <circle cx="200" cy="200" r="140" fill="none" stroke="#38BDF8" stroke-width="1.5" stroke-dasharray="6 14" opacity="0.4"/>
+
+  <!-- Orbital Sparkle Nodes -->
+  <circle cx="200" cy="40" r="5" fill="#00C7FF" filter="url(#neonGlow)"/>
+  <circle cx="360" cy="200" r="4" fill="#8B5CF6" filter="url(#neonGlow)"/>
+  <circle cx="200" cy="360" r="5" fill="#34D399" filter="url(#neonGlow)"/>
+  <circle cx="40" cy="200" r="4" fill="#FCD34D" filter="url(#neonGlow)"/>
+
+  <!-- Center Hexagon / Shield Base -->
+  <g transform="translate(200, 200) rotate(45)">
+    <!-- Microsoft 4 Isometric Rounded Cubes -->
+    <!-- Top-Left (Red) -->
+    <rect x="-85" y="-85" width="76" height="76" rx="16" fill="url(#tileRed)" filter="url(#neonGlow)"/>
+    <rect x="-83" y="-83" width="72" height="72" rx="14" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.4"/>
+
+    <!-- Top-Right (Green) -->
+    <rect x="9" y="-85" width="76" height="76" rx="16" fill="url(#tileGreen)" filter="url(#neonGlow)"/>
+    <rect x="11" y="-83" width="72" height="72" rx="14" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.4"/>
+
+    <!-- Bottom-Left (Blue) -->
+    <rect x="-85" y="9" width="76" height="76" rx="16" fill="url(#tileBlue)" filter="url(#neonGlow)"/>
+    <rect x="-83" y="11" width="72" height="72" rx="14" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.4"/>
+
+    <!-- Bottom-Right (Yellow) -->
+    <rect x="9" y="9" width="76" height="76" rx="16" fill="url(#tileYellow)" filter="url(#neonGlow)"/>
+    <rect x="11" y="11" width="72" height="72" rx="14" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.4"/>
+  </g>
+
+  <!-- Central Star of Innovation -->
+  <circle cx="200" cy="200" r="18" fill="#ffffff" filter="url(#neonGlow)"/>
+  <polygon points="200,188 203,197 212,200 203,203 200,212 197,203 188,200 197,197" fill="#0078D4"/>
+</svg>
