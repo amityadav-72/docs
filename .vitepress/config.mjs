@@ -27,7 +27,9 @@ export default defineConfig({
           { text: 'Chapter 1: Introduction to MSC PRPCEM', link: '/' },
           { text: 'Chapter 2: Organizational Structure', link: '/chapter-2/' },
           { text: 'Chapter 3: Member Onboarding', link: '/chapter-3/' },
-          { text: 'Chapter 4: Club Policies and Code of Conduct', link: '/chapter-4/' }
+          { text: 'Chapter 4: Club Policies and Code of Conduct', link: '/chapter-4/' },
+          { text: 'Chapter 5: Team Operations and Management', link: '/chapter-5/' },
+          { text: 'Chapter 6: Event Management', link: '/chapter-6/' }
         ]
       }
     ],
