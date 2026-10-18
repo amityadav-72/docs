@@ -1,353 +1,114 @@
 /* ==========================================================================
-   MSC PRPCEM Documentation Portal - Vibrant Visual Theme & Animations
-   Brand: docs.mscprpcem.tech • Microsoft Student Club PRPCEM
+   Microsoft Student Club (MSC PRPCEM) - Official Microsoft Fluent Theme
+   Brand: docs.mscprpcem.tech • Microsoft Brand Palette & Fluent Design System
    ========================================================================== */
 
+/* Iconic Microsoft 4-Color Stripe across the top of the browser */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3.5px;
+  background: linear-gradient(
+    90deg,
+    #F25022 0%,
+    #F25022 25%,
+    #7FBA00 25%,
+    #7FBA00 50%,
+    #00A4EF 50%,
+    #00A4EF 75%,
+    #FFB900 75%,
+    #FFB900 100%
+  );
+  z-index: 99999;
+}
+
 :root {
-  /* Fonts */
-  --vp-font-family-base: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-  --vp-font-family-mono: 'JetBrains Mono', SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  /* Typography - Microsoft Segoe UI stack */
+  --vp-font-family-base: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Plus Jakarta Sans', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --vp-font-family-mono: 'Cascadia Code', 'JetBrains Mono', Consolas, 'Courier New', monospace;
 
-  /* Vibrant Microsoft Azure / Cyan Brand Colors */
+  /* Official Microsoft 4-Color Identity */
+  --ms-red: #F25022;
+  --ms-green: #7FBA00;
+  --ms-blue: #00A4EF;
+  --ms-yellow: #FFB900;
+
+  /* Official Microsoft Fluent UI Brand Blue */
+  --ms-fluent-blue: #0078D4;
+  --ms-fluent-hover: #106EBE;
+  --ms-fluent-pressed: #005A9E;
+  --ms-fluent-soft: rgba(0, 120, 212, 0.08);
+
+  /* VitePress Brand Color Mapping */
   --vp-c-brand-1: #0078D4;
-  --vp-c-brand-2: #0284c7;
-  --vp-c-brand-3: #0369a1;
-  --vp-c-brand-soft: rgba(0, 120, 212, 0.1);
+  --vp-c-brand-2: #106EBE;
+  --vp-c-brand-3: #005A9E;
+  --vp-c-brand-soft: rgba(0, 120, 212, 0.08);
 
-  /* Vivid Accents */
-  --accent-cyan: #00C7FF;
-  --accent-purple: #8B5CF6;
-  --accent-emerald: #10B981;
-  --accent-amber: #F59E0B;
-  --accent-rose: #EF4444;
-
-  /* Card Shadows & Dynamic Glows */
-  --card-shadow: 0 4px 20px -2px rgba(0, 120, 212, 0.08), 0 2px 6px -1px rgba(0, 0, 0, 0.04);
-  --card-shadow-hover: 0 16px 36px -4px rgba(0, 120, 212, 0.22), 0 0 20px rgba(0, 199, 255, 0.25);
-  --glow-cyan: 0 0 30px rgba(0, 199, 255, 0.35);
-  --glow-brand: 0 0 25px rgba(0, 120, 212, 0.3);
-
-  /* Layout Spacing & Polish */
+  /* Fluent Card Shadows */
+  --card-shadow: 0 4px 16px -2px rgba(0, 120, 212, 0.08), 0 2px 6px -1px rgba(0, 0, 0, 0.04);
+  --card-shadow-hover: 0 12px 28px -4px rgba(0, 120, 212, 0.2), 0 0 12px rgba(0, 164, 239, 0.25);
+  
   --vp-nav-height: 64px;
 }
 
-/* Dark Mode Palette */
+/* Microsoft Fluent Dark Mode (Fluent Dark / Azure Dark) */
 .dark {
-  --vp-c-brand-1: #38bdf8;
-  --vp-c-brand-2: #0ea5e9;
-  --vp-c-brand-3: #0284c7;
-  --vp-c-brand-soft: rgba(56, 189, 248, 0.14);
+  --vp-c-brand-1: #2899F5;
+  --vp-c-brand-2: #479EF5;
+  --vp-c-brand-3: #0078D4;
+  --vp-c-brand-soft: rgba(40, 153, 245, 0.14);
 
-  --card-shadow: 0 4px 24px -2px rgba(0, 0, 0, 0.55);
-  --card-shadow-hover: 0 18px 40px -4px rgba(0, 0, 0, 0.75), 0 0 25px rgba(56, 189, 248, 0.3);
+  --card-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.55);
+  --card-shadow-hover: 0 14px 34px -4px rgba(0, 0, 0, 0.75), 0 0 18px rgba(40, 153, 245, 0.3);
 }
 
 /* ==========================================================================
-   Micro-Animations & Keyframes
-   ========================================================================== */
-
-@keyframes gradientFlow {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
-@keyframes floatLogo {
-  0%, 100% {
-    transform: translateY(0px) rotate(0deg);
-    filter: drop-shadow(0 15px 25px rgba(0, 120, 212, 0.3));
-  }
-  50% {
-    transform: translateY(-10px) rotate(1.5deg);
-    filter: drop-shadow(0 25px 35px rgba(0, 199, 255, 0.45));
-  }
-}
-
-@keyframes pulseDot {
-  0%, 100% {
-    transform: scale(1);
-    opacity: 1;
-    box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7);
-  }
-  70% {
-    transform: scale(1.15);
-    opacity: 0.8;
-    box-shadow: 0 0 0 8px rgba(16, 185, 129, 0);
-  }
-}
-
-@keyframes pulseGlowRing {
-  0%, 100% {
-    transform: scale(1);
-    opacity: 0.5;
-  }
-  50% {
-    transform: scale(1.08);
-    opacity: 0.85;
-  }
-}
-
-@keyframes shimmer {
-  100% {
-    transform: translateX(100%);
-  }
-}
-
-/* ==========================================================================
-   Navigation Bar Styling
+   Navigation Bar Styling (Microsoft Fluent)
    ========================================================================== */
 
 .VPNavBar {
   backdrop-filter: blur(16px) !important;
-  background-color: rgba(255, 255, 255, 0.85) !important;
+  background-color: rgba(255, 255, 255, 0.88) !important;
   border-bottom: 1px solid rgba(0, 120, 212, 0.12) !important;
   transition: all 0.3s ease !important;
 }
 
 .dark .VPNavBar {
-  background-color: rgba(15, 23, 42, 0.85) !important;
-  border-bottom-color: rgba(56, 189, 248, 0.15) !important;
+  background-color: rgba(17, 24, 39, 0.88) !important;
+  border-bottom-color: rgba(40, 153, 245, 0.15) !important;
 }
 
 .VPNavBarTitle .title {
-  font-weight: 800 !important;
+  font-weight: 700 !important;
   letter-spacing: -0.01em !important;
-  background: linear-gradient(135deg, #0078D4, #00C7FF) !important;
-  -webkit-background-clip: text !important;
-  -webkit-text-fill-color: transparent !important;
+  color: #0078D4 !important;
 }
 
 .dark .VPNavBarTitle .title {
-  background: linear-gradient(135deg, #38bdf8, #818cf8) !important;
-  -webkit-background-clip: text !important;
-  -webkit-text-fill-color: transparent !important;
+  color: #2899F5 !important;
 }
 
 .VPNavBarMenuLink {
   font-weight: 600 !important;
-  transition: color 0.2s ease, transform 0.2s ease !important;
+  transition: color 0.2s ease !important;
 }
 
-.VPNavBarMenuLink:hover {
+.VPNavBarMenuLink:hover,
+.VPNavBarMenuLink.active {
   color: #0078D4 !important;
-  transform: translateY(-1px) !important;
 }
 
-.dark .VPNavBarMenuLink:hover {
-  color: #38bdf8 !important;
+.dark .VPNavBarMenuLink:hover,
+.dark .VPNavBarMenuLink.active {
+  color: #2899F5 !important;
 }
 
 /* ==========================================================================
-   Hero Section Enhancements
-   ========================================================================== */
-
-.VPHero {
-  padding-top: 48px !important;
-  padding-bottom: 48px !important;
-}
-
-.VPHero .name {
-  background: linear-gradient(135deg, #0078D4 0%, #00C7FF 30%, #8B5CF6 70%, #0078D4 100%) !important;
-  background-size: 300% 300% !important;
-  -webkit-background-clip: text !important;
-  -webkit-text-fill-color: transparent !important;
-  animation: gradientFlow 8s ease infinite !important;
-  font-weight: 900 !important;
-  letter-spacing: -0.03em !important;
-  font-size: 3.5rem !important;
-  line-height: 1.1 !important;
-}
-
-.VPHero .text {
-  font-weight: 800 !important;
-  letter-spacing: -0.02em !important;
-  color: #1e293b !important;
-}
-
-.dark .VPHero .text {
-  color: #f1f5f9 !important;
-}
-
-.VPHero .tagline {
-  font-size: 1.25rem !important;
-  line-height: 1.6 !important;
-  color: #475569 !important;
-  max-width: 620px !important;
-}
-
-.dark .VPHero .tagline {
-  color: #94a3b8 !important;
-}
-
-/* Hero Image & Ambient Glow */
-.VPHero .image-bg {
-  background: radial-gradient(circle, rgba(0, 199, 255, 0.35) 0%, rgba(0, 120, 212, 0.2) 45%, rgba(139, 92, 246, 0.1) 70%, transparent 80%) !important;
-  filter: blur(50px) !important;
-  animation: pulseGlowRing 6s ease-in-out infinite !important;
-}
-
-.VPHero .image-src {
-  animation: floatLogo 6s ease-in-out infinite !important;
-  max-width: 320px !important;
-  border-radius: 24px !important;
-}
-
-/* Hero CTA Buttons */
-.VPHero .VPButton.brand {
-  background: linear-gradient(135deg, #0078D4 0%, #0098F4 50%, #00C7FF 100%) !important;
-  background-size: 200% auto !important;
-  border: none !important;
-  color: #ffffff !important;
-  font-weight: 700 !important;
-  padding: 0 26px !important;
-  height: 48px !important;
-  line-height: 48px !important;
-  border-radius: 12px !important;
-  box-shadow: 0 6px 20px rgba(0, 120, 212, 0.35) !important;
-  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
-}
-
-.VPHero .VPButton.brand:hover {
-  background-position: right center !important;
-  transform: translateY(-3px) scale(1.02) !important;
-  box-shadow: 0 12px 28px rgba(0, 199, 255, 0.5) !important;
-}
-
-.VPHero .VPButton.alt {
-  background: rgba(255, 255, 255, 0.9) !important;
-  border: 1.5px solid rgba(0, 120, 212, 0.25) !important;
-  color: #0078D4 !important;
-  font-weight: 700 !important;
-  padding: 0 24px !important;
-  height: 48px !important;
-  line-height: 48px !important;
-  border-radius: 12px !important;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04) !important;
-  backdrop-filter: blur(8px) !important;
-  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1) !important;
-}
-
-.dark .VPHero .VPButton.alt {
-  background: rgba(30, 41, 59, 0.8) !important;
-  border-color: rgba(56, 189, 248, 0.3) !important;
-  color: #38bdf8 !important;
-}
-
-.VPHero .VPButton.alt:hover {
-  background: rgba(0, 120, 212, 0.08) !important;
-  border-color: #0078D4 !important;
-  transform: translateY(-2px) !important;
-  box-shadow: 0 8px 20px rgba(0, 120, 212, 0.15) !important;
-}
-
-.dark .VPHero .VPButton.alt:hover {
-  background: rgba(56, 189, 248, 0.15) !important;
-  border-color: #38bdf8 !important;
-}
-
-/* ==========================================================================
-   Home Feature Cards Enhancements
-   ========================================================================== */
-
-.VPFeatures {
-  padding: 24px 0 64px 0 !important;
-}
-
-.VPFeatures .VPFeature {
-  border: 1px solid rgba(0, 120, 212, 0.12) !important;
-  border-radius: 16px !important;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.95), rgba(248, 250, 252, 0.9)) !important;
-  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1) !important;
-  position: relative !important;
-  overflow: hidden !important;
-  box-shadow: var(--card-shadow) !important;
-  padding: 28px 24px !important;
-}
-
-.dark .VPFeatures .VPFeature {
-  background: linear-gradient(180deg, rgba(30, 41, 59, 0.75), rgba(15, 23, 42, 0.85)) !important;
-  border-color: rgba(255, 255, 255, 0.08) !important;
-}
-
-.VPFeatures .VPFeature:hover {
-  transform: translateY(-6px) !important;
-  border-color: #38bdf8 !important;
-  box-shadow: var(--card-shadow-hover) !important;
-}
-
-/* Glowing Top Accent on Hover */
-.VPFeatures .VPFeature::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 4px;
-  background: linear-gradient(90deg, #0078D4, #00C7FF, #8B5CF6);
-  opacity: 0;
-  transform: scaleX(0.7);
-  transition: all 0.35s ease;
-}
-
-.VPFeatures .VPFeature:hover::before {
-  opacity: 1;
-  transform: scaleX(1);
-}
-
-.VPFeatures .VPFeature .icon {
-  width: 48px !important;
-  height: 48px !important;
-  border-radius: 12px !important;
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-  font-size: 24px !important;
-  background: linear-gradient(135deg, rgba(0, 120, 212, 0.12), rgba(0, 199, 255, 0.18)) !important;
-  color: #0078D4 !important;
-  margin-bottom: 16px !important;
-  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
-}
-
-.dark .VPFeatures .VPFeature .icon {
-  background: linear-gradient(135deg, rgba(56, 189, 248, 0.2), rgba(139, 92, 246, 0.25)) !important;
-  color: #38bdf8 !important;
-}
-
-.VPFeatures .VPFeature:hover .icon {
-  transform: scale(1.12) rotate(4deg) !important;
-  box-shadow: 0 4px 16px rgba(0, 199, 255, 0.35) !important;
-}
-
-.VPFeatures .VPFeature .title {
-  font-size: 18px !important;
-  font-weight: 700 !important;
-  letter-spacing: -0.01em !important;
-  color: #0f172a !important;
-  margin-bottom: 8px !important;
-}
-
-.dark .VPFeatures .VPFeature .title {
-  color: #f8fafc !important;
-}
-
-.VPFeatures .VPFeature .details {
-  font-size: 14px !important;
-  line-height: 1.6 !important;
-  color: #64748b !important;
-}
-
-.dark .VPFeatures .VPFeature .details {
-  color: #94a3b8 !important;
-}
-
-/* ==========================================================================
-   Sidebar Navigation Polish
+   Sidebar Navigation (Microsoft Fluent Tree Navigation)
    ========================================================================== */
 
 .VPSidebar {
@@ -356,32 +117,35 @@
 }
 
 .dark .VPSidebar {
-  border-right-color: rgba(56, 189, 248, 0.1) !important;
+  border-right-color: rgba(40, 153, 245, 0.12) !important;
 }
 
 .VPSidebarItem.is-active > .item {
-  background: linear-gradient(90deg, rgba(0, 120, 212, 0.12) 0%, rgba(0, 199, 255, 0.04) 100%) !important;
-  border-radius: 8px !important;
-  font-weight: 700 !important;
+  background: rgba(0, 120, 212, 0.08) !important;
+  border-left: 3.5px solid #0078D4 !important;
+  border-radius: 4px !important;
+  font-weight: 600 !important;
   color: #0078D4 !important;
-  padding-left: 12px !important;
+  padding-left: 10px !important;
 }
 
 .dark .VPSidebarItem.is-active > .item {
-  background: linear-gradient(90deg, rgba(56, 189, 248, 0.18) 0%, rgba(14, 165, 233, 0.05) 100%) !important;
-  color: #38bdf8 !important;
+  background: rgba(40, 153, 245, 0.14) !important;
+  border-left-color: #2899F5 !important;
+  color: #2899F5 !important;
 }
 
 .VPSidebarItem .indicator {
-  background: linear-gradient(180deg, #0078D4, #00C7FF) !important;
-  width: 4px !important;
-  border-radius: 9999px !important;
-  box-shadow: 0 0 10px rgba(0, 199, 255, 0.5) !important;
+  background: #0078D4 !important;
+}
+
+.dark .VPSidebarItem .indicator {
+  background: #2899F5 !important;
 }
 
 .VPSidebarItem .item {
-  border-radius: 6px !important;
-  transition: all 0.2s ease !important;
+  border-radius: 4px !important;
+  transition: all 0.18s ease !important;
 }
 
 .VPSidebarItem .item:hover {
@@ -390,148 +154,184 @@
 }
 
 .dark .VPSidebarItem .item:hover {
-  color: #38bdf8 !important;
-  background-color: rgba(56, 189, 248, 0.08) !important;
+  color: #2899F5 !important;
+  background-color: rgba(40, 153, 245, 0.08) !important;
 }
 
 /* ==========================================================================
-   Document Content Polish & Vibrant Headings
+   Headings & Content Typography (Microsoft Docs Style)
    ========================================================================== */
 
 .vp-doc h1 {
   font-size: 2.25rem !important;
-  font-weight: 800 !important;
-  letter-spacing: -0.025em !important;
-  background: linear-gradient(135deg, #0f172a 0%, #0078D4 100%) !important;
-  -webkit-background-clip: text !important;
-  -webkit-text-fill-color: transparent !important;
-  margin-bottom: 1.25rem !important;
+  font-weight: 700 !important;
+  letter-spacing: -0.02em !important;
+  color: #111827 !important;
+  border-bottom: 2px solid rgba(0, 120, 212, 0.15) !important;
+  padding-bottom: 0.75rem !important;
+  margin-bottom: 1.5rem !important;
 }
 
 .dark .vp-doc h1 {
-  background: linear-gradient(135deg, #ffffff 0%, #38bdf8 100%) !important;
-  -webkit-background-clip: text !important;
-  -webkit-text-fill-color: transparent !important;
+  color: #f9fafb !important;
+  border-bottom-color: rgba(40, 153, 245, 0.2) !important;
 }
 
 .vp-doc h2 {
   font-size: 1.5rem !important;
-  font-weight: 700 !important;
+  font-weight: 600 !important;
   letter-spacing: -0.015em !important;
-  border-bottom: 2px solid rgba(0, 120, 212, 0.15) !important;
-  padding-bottom: 0.5rem !important;
-  margin-top: 2.5rem !important;
+  color: #1f2937 !important;
+  border-bottom: 1px solid rgba(0, 120, 212, 0.15) !important;
+  padding-bottom: 0.45rem !important;
+  margin-top: 2.25rem !important;
   position: relative !important;
 }
 
 .vp-doc h2::after {
   content: '';
   position: absolute;
-  bottom: -2px;
+  bottom: -1px;
   left: 0;
-  width: 60px;
+  width: 50px;
   height: 2px;
-  background: linear-gradient(90deg, #0078D4, #00C7FF);
+  background: #0078D4;
 }
 
 .dark .vp-doc h2 {
-  border-bottom-color: rgba(56, 189, 248, 0.2) !important;
+  color: #f3f4f6 !important;
+  border-bottom-color: rgba(40, 153, 245, 0.2) !important;
 }
 
 .dark .vp-doc h2::after {
-  background: linear-gradient(90deg, #38bdf8, #818cf8);
+  background: #2899F5;
 }
 
 .vp-doc h3 {
   font-size: 1.2rem !important;
-  font-weight: 700 !important;
-  color: #0284c7 !important;
-  margin-top: 1.75rem !important;
+  font-weight: 600 !important;
+  color: #0078D4 !important;
+  margin-top: 1.6rem !important;
 }
 
 .dark .vp-doc h3 {
-  color: #38bdf8 !important;
+  color: #2899F5 !important;
 }
 
-/* Vibrant Custom Blocks (Callouts) */
-.custom-block {
-  border-radius: 12px !important;
-  padding: 16px 20px !important;
-  margin: 1.5rem 0 !important;
-  backdrop-filter: blur(8px) !important;
-  transition: transform 0.2s ease, box-shadow 0.2s ease !important;
+/* Links */
+.vp-doc a {
+  color: #0078D4 !important;
+  text-decoration: none !important;
+  font-weight: 500;
+  transition: all 0.2s ease !important;
 }
 
-.custom-block:hover {
-  transform: translateY(-2px);
+.vp-doc a:hover {
+  color: #106EBE !important;
+  text-decoration: underline !important;
 }
 
-.custom-block.info {
-  border-left: 4px solid #0078D4 !important;
-  background: linear-gradient(90deg, rgba(0, 120, 212, 0.08) 0%, rgba(0, 199, 255, 0.03) 100%) !important;
-  box-shadow: 0 4px 15px rgba(0, 120, 212, 0.06) !important;
+.dark .vp-doc a {
+  color: #2899F5 !important;
 }
 
-.custom-block.tip {
-  border-left: 4px solid #10B981 !important;
-  background: linear-gradient(90deg, rgba(16, 185, 129, 0.09) 0%, rgba(16, 185, 129, 0.02) 100%) !important;
-  box-shadow: 0 4px 15px rgba(16, 185, 129, 0.06) !important;
-}
-
-.custom-block.warning {
-  border-left: 4px solid #F59E0B !important;
-  background: linear-gradient(90deg, rgba(245, 158, 11, 0.09) 0%, rgba(245, 158, 11, 0.02) 100%) !important;
-  box-shadow: 0 4px 15px rgba(245, 158, 11, 0.06) !important;
-}
-
-.custom-block.danger {
-  border-left: 4px solid #EF4444 !important;
-  background: linear-gradient(90deg, rgba(239, 68, 68, 0.09) 0%, rgba(239, 68, 68, 0.02) 100%) !important;
-  box-shadow: 0 4px 15px rgba(239, 68, 68, 0.06) !important;
+.dark .vp-doc a:hover {
+  color: #479EF5 !important;
 }
 
 /* ==========================================================================
-   Modern Polished Data Tables
+   Microsoft 4-Color Callouts (Custom Blocks)
+   ========================================================================== */
+
+.custom-block {
+  border-radius: 8px !important;
+  padding: 16px 20px !important;
+  margin: 1.5rem 0 !important;
+  transition: all 0.2s ease !important;
+}
+
+/* Info -> Microsoft Blue (#0078D4) */
+.custom-block.info {
+  border-left: 4px solid #0078D4 !important;
+  background: rgba(0, 120, 212, 0.05) !important;
+}
+
+.dark .custom-block.info {
+  border-left-color: #2899F5 !important;
+  background: rgba(40, 153, 245, 0.08) !important;
+}
+
+/* Tip -> Microsoft Green (#7FBA00) */
+.custom-block.tip {
+  border-left: 4px solid #7FBA00 !important;
+  background: rgba(127, 186, 0, 0.06) !important;
+}
+
+.dark .custom-block.tip {
+  border-left-color: #7FBA00 !important;
+  background: rgba(127, 186, 0, 0.1) !important;
+}
+
+/* Warning -> Microsoft Yellow (#FFB900) */
+.custom-block.warning {
+  border-left: 4px solid #FFB900 !important;
+  background: rgba(255, 185, 0, 0.07) !important;
+}
+
+.dark .custom-block.warning {
+  border-left-color: #FFB900 !important;
+  background: rgba(255, 185, 0, 0.1) !important;
+}
+
+/* Danger -> Microsoft Red (#F25022) */
+.custom-block.danger {
+  border-left: 4px solid #F25022 !important;
+  background: rgba(242, 80, 34, 0.06) !important;
+}
+
+.dark .custom-block.danger {
+  border-left-color: #F25022 !important;
+  background: rgba(242, 80, 34, 0.1) !important;
+}
+
+/* ==========================================================================
+   Microsoft Learn-Style Data Tables
    ========================================================================== */
 
 .vp-doc table {
   width: 100% !important;
-  border-collapse: separate !important;
-  border-spacing: 0 !important;
-  border-radius: 12px !important;
+  border-collapse: collapse !important;
+  border-radius: 8px !important;
   overflow: hidden !important;
   border: 1px solid rgba(0, 120, 212, 0.15) !important;
-  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.03) !important;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.02) !important;
   margin: 1.5rem 0 !important;
 }
 
 .dark .vp-doc table {
-  border-color: rgba(56, 189, 248, 0.2) !important;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3) !important;
+  border-color: rgba(40, 153, 245, 0.2) !important;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3) !important;
 }
 
 .vp-doc th {
-  background: linear-gradient(180deg, #f8fafc 0%, #f1f5f9 100%) !important;
+  background: rgba(0, 120, 212, 0.06) !important;
   color: #0f172a !important;
-  font-weight: 700 !important;
-  font-size: 13px !important;
-  text-transform: uppercase !important;
-  letter-spacing: 0.05em !important;
+  font-weight: 600 !important;
+  font-size: 13.5px !important;
   padding: 12px 16px !important;
   border-bottom: 2px solid rgba(0, 120, 212, 0.2) !important;
 }
 
 .dark .vp-doc th {
-  background: linear-gradient(180deg, #1e293b 0%, #0f172a 100%) !important;
+  background: rgba(40, 153, 245, 0.12) !important;
   color: #f8fafc !important;
-  border-bottom-color: rgba(56, 189, 248, 0.25) !important;
+  border-bottom-color: rgba(40, 153, 245, 0.25) !important;
 }
 
 .vp-doc td {
   padding: 12px 16px !important;
   border-bottom: 1px solid rgba(0, 120, 212, 0.08) !important;
   font-size: 14px !important;
-  transition: background-color 0.15s ease !important;
 }
 
 .dark .vp-doc td {
@@ -539,159 +339,57 @@
 }
 
 .vp-doc tr:hover td {
-  background-color: rgba(0, 120, 212, 0.04) !important;
+  background-color: rgba(0, 120, 212, 0.03) !important;
 }
 
 .dark .vp-doc tr:hover td {
-  background-color: rgba(56, 189, 248, 0.08) !important;
+  background-color: rgba(40, 153, 245, 0.06) !important;
 }
 
 /* ==========================================================================
-   Code Blocks & Badges
+   Checklists & Form Controls
+   ========================================================================== */
+
+.task-list-item {
+  list-style-type: none !important;
+  padding: 5px 8px !important;
+  border-radius: 6px !important;
+  transition: background-color 0.15s ease !important;
+}
+
+.task-list-item:hover {
+  background: rgba(0, 120, 212, 0.04) !important;
+}
+
+.dark .task-list-item:hover {
+  background: rgba(40, 153, 245, 0.08) !important;
+}
+
+.task-list-item-checkbox {
+  width: 16px !important;
+  height: 16px !important;
+  accent-color: #0078D4 !important;
+  margin-right: 8px !important;
+  vertical-align: middle !important;
+  cursor: pointer !important;
+}
+
+/* ==========================================================================
+   Code Blocks & Scrollbars
    ========================================================================== */
 
 .vp-doc div[class*='language-'] {
-  border-radius: 12px !important;
+  border-radius: 8px !important;
   border: 1px solid rgba(0, 120, 212, 0.15) !important;
-  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.04) !important;
 }
 
 .dark .vp-doc div[class*='language-'] {
-  border-color: rgba(56, 189, 248, 0.15) !important;
-  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.4) !important;
+  border-color: rgba(40, 153, 245, 0.18) !important;
 }
-
-/* Status Badges */
-.status-pill {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  padding: 3px 10px;
-  font-size: 12px;
-  font-weight: 700;
-  border-radius: 9999px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
-
-.status-pill.live {
-  background: rgba(16, 185, 129, 0.12);
-  color: #059669;
-  border: 1px solid rgba(16, 185, 129, 0.3);
-}
-
-.dark .status-pill.live {
-  background: rgba(16, 185, 129, 0.2);
-  color: #34d399;
-}
-
-.status-pill.live::before {
-  content: '';
-  display: inline-block;
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  background-color: #10B981;
-  animation: pulseDot 2s infinite;
-}
-
-.status-pill.blue {
-  background: rgba(0, 120, 212, 0.12);
-  color: #0078D4;
-  border: 1px solid rgba(0, 120, 212, 0.3);
-}
-
-.dark .status-pill.blue {
-  background: rgba(56, 189, 248, 0.2);
-  color: #38bdf8;
-}
-
-.status-pill.amber {
-  background: rgba(245, 158, 11, 0.12);
-  color: #d97706;
-  border: 1px solid rgba(245, 158, 11, 0.3);
-}
-
-.dark .status-pill.amber {
-  background: rgba(245, 158, 11, 0.2);
-  color: #fbbf24;
-}
-
-/* ==========================================================================
-   Home Landing Interactive Quick Cards
-   ========================================================================== */
-
-.quick-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 20px;
-  margin: 28px 0;
-}
-
-.quick-card {
-  display: block;
-  padding: 22px;
-  background: #ffffff;
-  border: 1px solid rgba(0, 120, 212, 0.14);
-  border-radius: 14px;
-  text-decoration: none !important;
-  color: inherit !important;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.03);
-  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
-  position: relative;
-  overflow: hidden;
-}
-
-.dark .quick-card {
-  background: #1e293b;
-  border-color: rgba(255, 255, 255, 0.08);
-}
-
-.quick-card:hover {
-  transform: translateY(-5px);
-  border-color: #00C7FF;
-  box-shadow: 0 12px 30px rgba(0, 120, 212, 0.18), 0 0 15px rgba(0, 199, 255, 0.2);
-}
-
-.quick-card-icon {
-  font-size: 28px;
-  margin-bottom: 12px;
-  display: inline-block;
-}
-
-.quick-card-title {
-  font-size: 17px;
-  font-weight: 700;
-  color: #0078D4;
-  margin-bottom: 6px;
-}
-
-.dark .quick-card-title {
-  color: #38bdf8;
-}
-
-.quick-card-desc {
-  font-size: 13.5px;
-  line-height: 1.5;
-  color: #64748b;
-  margin: 0;
-}
-
-.dark .quick-card-desc {
-  color: #94a3b8;
-}
-
-/* ==========================================================================
-   Custom Scrollbar & Document Elements
-   ========================================================================== */
 
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;
-}
-
-::-webkit-scrollbar-track {
-  background: transparent;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -704,122 +402,9 @@
 }
 
 .dark ::-webkit-scrollbar-thumb {
-  background: rgba(56, 189, 248, 0.3);
+  background: rgba(40, 153, 245, 0.3);
 }
 
 .dark ::-webkit-scrollbar-thumb:hover {
-  background: rgba(56, 189, 248, 0.6);
+  background: rgba(40, 153, 245, 0.6);
 }
-
-/* Task lists */
-.task-list-item {
-  list-style-type: none !important;
-  padding: 6px 12px !important;
-  border-radius: 8px !important;
-  transition: all 0.2s ease !important;
-}
-
-.task-list-item:hover {
-  background: rgba(0, 120, 212, 0.06) !important;
-}
-
-.dark .task-list-item:hover {
-  background: rgba(56, 189, 248, 0.1) !important;
-}
-
-.task-list-item-checkbox {
-  width: 17px !important;
-  height: 17px !important;
-  accent-color: #0078D4 !important;
-  border-radius: 4px !important;
-  vertical-align: middle !important;
-  margin-right: 10px !important;
-  cursor: pointer !important;
-}
-
-/* Interactive Buttons */
-.btn-primary {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  background: linear-gradient(135deg, #0078D4, #00C7FF);
-  color: #ffffff !important;
-  padding: 10px 20px;
-  border-radius: 8px;
-  font-weight: 600;
-  border: none;
-  cursor: pointer;
-  box-shadow: 0 4px 14px rgba(0, 120, 212, 0.3);
-  transition: all 0.25s ease;
-  text-decoration: none !important;
-}
-
-.btn-primary:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 22px rgba(0, 199, 255, 0.45);
-}
-
-.btn-secondary {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  background: rgba(0, 120, 212, 0.08);
-  color: #0078D4 !important;
-  padding: 10px 20px;
-  border-radius: 8px;
-  font-weight: 600;
-  border: 1px solid rgba(0, 120, 212, 0.25);
-  cursor: pointer;
-  transition: all 0.25s ease;
-  text-decoration: none !important;
-}
-
-.btn-secondary:hover {
-  background: rgba(0, 120, 212, 0.15);
-  transform: translateY(-2px);
-}
-
-.dark .btn-secondary {
-  background: rgba(56, 189, 248, 0.15);
-  color: #38bdf8 !important;
-  border-color: rgba(56, 189, 248, 0.3);
-}
-
-/* ==========================================================================
-   Documentation Rich Banner & Images
-   ========================================================================== */
-
-.doc-banner-wrapper {
-  margin: 20px 0 28px 0;
-  border-radius: 16px;
-  overflow: hidden;
-  box-shadow: 0 10px 30px rgba(0, 120, 212, 0.15), 0 0 1px 1px rgba(0, 199, 255, 0.2);
-  border: 1px solid rgba(0, 120, 212, 0.18);
-  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
-}
-
-.dark .doc-banner-wrapper {
-  box-shadow: 0 10px 32px rgba(0, 0, 0, 0.6), 0 0 20px rgba(56, 189, 248, 0.2);
-  border-color: rgba(56, 189, 248, 0.25);
-}
-
-.doc-banner-wrapper:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 18px 44px rgba(0, 120, 212, 0.25), 0 0 28px rgba(0, 199, 255, 0.4);
-  border-color: #38bdf8;
-}
-
-.doc-banner-img {
-  width: 100%;
-  height: auto;
-  max-height: 480px;
-  display: block;
-  object-fit: cover;
-  transition: transform 0.5s ease;
-}
-
-.doc-banner-wrapper:hover .doc-banner-img {
-  transform: scale(1.02);
-}
-
-
