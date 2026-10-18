@@ -17,13 +17,7 @@ export default defineConfig({
   themeConfig: {
     siteTitle: 'MSC PRPCEM',
     logo: '/MSC_logo.png',
-
-    nav: [
-      { text: 'Chapter 1', link: '/' },
-      { text: 'Chapter 2', link: '/chapter-2/' },
-      { text: 'Chapter 3', link: '/chapter-3/' },
-      { text: 'Chapter 4', link: '/chapter-4/' }
-    ],
+    nav: [],
 
     sidebar: [
       {
