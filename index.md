@@ -11,7 +11,7 @@ description: "Overview, history, mission, vision, objectives, core values, and i
 
 The club encourages students to learn emerging technologies, gain practical experience, collaborate on projects, and develop technical and leadership skills.
 
-- **Official Website:** [https://www.mscprpcem.tech/](https://www.mscprpcem.tech/)
+- **Official Website:** [https://mscprpcem.tech/](https://mscprpcem.tech/)
 
 ---
 
@@ -70,7 +70,7 @@ Examples of the club's technical and community activities include:
 - **Community learning and collaboration events**
 
 ::: info Events Calendar
-Refer to the official [Events Page](https://www.mscprpcem.tech/events) for updated event schedules and registration information.
+Refer to the official [Events Page](https://mscprpcem.tech/events) for updated event schedules and registration information.
 :::
 
 ---
@@ -100,6 +100,6 @@ At the beginning of each academic year, the leadership team should define priori
 
 ## References
 
-- [MSC PRPCEM Official Website](https://www.mscprpcem.tech/)
-- [MSC PRPCEM Events](https://www.mscprpcem.tech/events)
+- [MSC PRPCEM Official Website](https://mscprpcem.tech/)
+- [MSC PRPCEM Events](https://mscprpcem.tech/events)
 - [PRPCEM Official Website](https://www.prpotepatilengg.ac.in/)
