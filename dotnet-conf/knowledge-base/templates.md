@@ -18,7 +18,7 @@ This document provides 20 standardized, copy-paste reusable templates covering t
 - **Date of Submission:** [YYYY-MM-DD]
 - **Target Conference Date:** [Proposed Date or Weekend]
 - **Proposed Venue:** [PRPCEM Central Auditorium & Facilities]
-- **Convening Department:** Department of Computer Science & Engineering / IT
+- **Organizing Entity:** Microsoft Student Club PRPCEM (MSC PRPCEM)
 
 ## 1. Executive Summary & Rationale
 [Brief 2-paragraph overview explaining why this edition should be organized, aligning with recent .NET releases and regional student needs.]
@@ -28,7 +28,7 @@ This document provides 20 standardized, copy-paste reusable templates covering t
 - **Key Technical Domains:** [e.g., Microservices, Semantic Kernel AI, Blazor, DevOps]
 
 ## 3. Target Scale & Demographics
-- Target Verified Attendance: [e.g., 600 delegates]
+- Target Verified Attendance: [e.g., 500 delegates]
 - Target Colleges: [Number of partner institutions]
 - Format: [Single Track / Dual Track / Triple Track]
 
@@ -88,10 +88,10 @@ This document provides 20 standardized, copy-paste reusable templates covering t
 **Date:** [YYYY-MM-DD]
 
 ## 1. About .NET Conf Amravati
-[Summary of the initiative, highlighting past attendance of 1,400+ engineers, Microsoft MVP participation, and regional impact.]
+[Summary of the initiative, highlighting past verified attendance of 360+ student delegates across completed editions, Microsoft MVP participation, and regional impact.]
 
 ## 2. Why Partner With Us?
-- **Direct Recruitment Funnel:** Access to 600+ final-year computer engineering undergraduates skilled in C#, .NET, Cloud, and AI.
+- **Direct Recruitment Funnel:** Access to 500 target computer engineering undergraduates skilled in C#, .NET, Cloud, and AI.
 - **High-Impact Brand Equity:** Prominent visibility across stage backdrops, delegate kits, and digital media reaches exceeding 200,000+ impressions.
 - **Technical Demonstrations:** Showcase your enterprise products and developer tools directly to practicing engineers.
 
@@ -182,9 +182,9 @@ Dear [Speaker Name],
 
 Greetings from Microsoft Student Club at P. R. Pote (Patil) College of Engineering and Management (PRPCEM), Amravati.
 
-On behalf of the Organizing Committee, it is our privilege to invite you to speak at .NET Conf Amravati [YEAR] on [Date] at our Central Campus Auditorium in Amravati, Maharashtra.
+On behalf of the Organizing Committee, it is our privilege to invite you to speak at .NET Conf Amravati [YEAR] on [Date] at our Campus in Amravati, Maharashtra.
 
-Following our past editions that brought together 1,400+ attendees, this year's theme is "[Theme Name]". Given your profound work in [Speaker Domain], your session would deliver immense practical value to our 600+ delegates.
+Following our past editions that brought together 360+ verified delegates, this year's theme is "[Theme Name]". Given your profound work in [Speaker Domain], your session would deliver immense practical value to our 500 target delegates.
 
 We provide full hospitality including outstation travel accommodation and airport/railway transfers.
 
@@ -201,7 +201,7 @@ Warm regards,
 ```markdown
 # Speaker Information & Technical Requirements Sheet
 
-*Please complete this form and return it to technical@mscprpcem.tech at least 20 days prior to event day.*
+*Please complete this form and return it to dotnetconfamt@prpotepatilengg.ac.in at least 20 days prior to event day.*
 
 1. **Speaker Full Name:** [Name]
 2. **Current Professional Designation:** [Title]
@@ -316,7 +316,7 @@ Warm regards,
 
 - **Meeting Number:** [e.g., Meeting #04]
 - **Date & Time:** [YYYY-MM-DD, HH:MM AM/PM]
-- **Location:** [Department Seminar Hall / Microsoft Teams]
+- **Location:** [PRPCEM Seminar Hall / Microsoft Teams]
 - **Chairperson:** [General Event Chair Name]
 - **Minutes Recorded By:** [Documentation Lead Name]
 
@@ -325,13 +325,13 @@ Warm regards,
 - Absent: [List of excused absences]
 
 ### Agenda Items:
-1. Review of Call for Speakers (CFS) submissions.
-2. Status update on Title Sponsor negotiations.
+1. Review of Call for Speakers (CFS) submissions on Sessionize.
+2. Status update on In-Kind Developer Grants (.xyz, JetBrains, Packt).
 3. Review of catering vendor quotations.
 
 ### Discussions & Decisions:
-- **Item 1:** CFS received 28 abstracts; Technical Committee to shortlist top 10 by Friday.
-- **Item 2:** Sponsor proposal sent to Zenith Cloud; awaiting revised MoU.
+- **Item 1:** Sessionize CFS received 28 abstracts; Technical Committee to shortlist top 10 by Friday.
+- **Item 2:** In-kind grant requests submitted to .xyz Domains, JetBrains, and Packt; awaiting confirmation.
 
 ### Action Items & Ownership:
 | Task Assigned | Responsible Lead | Firm Deadline |

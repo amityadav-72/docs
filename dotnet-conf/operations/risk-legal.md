@@ -59,7 +59,7 @@ Any participant who engages in harassing or disruptive behavior will be warned i
 
 **Emergency Contacts:**
 - Campus Safety & Security Desk: `0721-2530089` *(Campus Security Control)*
-- Student Welfare Officer: Department of CSE, PRPCEM
+- Student Welfare Officer: MSC PRPCEM Faculty Advisor / Campus Administration
 
 ---
 
@@ -69,6 +69,7 @@ Any participant who engages in harassing or disruptive behavior will be warned i
 | :--- | :---: | :---: | :---: | :--- |
 | **Grid Power Outage during Keynote** | High | High | **CRITICAL** | Central Online UPS provides instantaneous battery power; 125 kVA diesel generator automatically takes over within 8 seconds. |
 | **Stage Leased-Line Internet Drop** | Medium | High | **HIGH** | Secondary redundant 5G cellular Wi-Fi gateway active on stage; speakers advised to cache all demo container images locally. |
+| **Speaker Mid-Week Corporate Leave Constraints** | High | High | **CRITICAL** | Transitioned to holiday mega-event scheduling (Dec 25); outstation Microsoft MVPs and Employees confirmed 10 weeks prior with arrival scheduled the previous evening. |
 | **Speaker Misses Connecting Flight** | Low | High | **HIGH** | Dedicated standby local MVP speaker on campus; secondary technical track ready to step in immediately. |
 | **Auditorium Overcrowding (>450 Pax)** | High | Medium | **HIGH** | Strict QR-code ticket scanning at door; overflow attendees directed to Seminar Hall A with live video feed. |
 | **Medical Emergency / Fainting** | Low | Medium | **MEDIUM** | On-campus medical dispensary staffed with certified nursing personnel; first-aid kits stationed at registration and stage. |

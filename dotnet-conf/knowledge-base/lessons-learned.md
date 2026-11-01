@@ -22,9 +22,14 @@ True organizational maturity comes from honest self-evaluation. This document ar
 - **Lesson: Strict Protection of Attendee Data:** In 2024, an external marketing agency offered substantial funding in exchange for attendees' personal phone numbers. MSC PRPCEM firmly declined. Preserving student trust and regulatory compliance is vastly more important than short-term cash.
 
 ### 1.3 Logistics, Catering & Operations
-- **Lesson: Staggered Lunch Timing is Mandatory:** In 2024, releasing all 385 delegates into the dining area simultaneously caused a 20-minute bottleneck at buffet counters. In 2025, staggering lunch by 15 minutes across Track A and Track B reduced wait times to under 4 minutes.
+- **Lesson: Staggered Lunch Timing is Mandatory:** In 2024, releasing all 180+ delegates into the dining area simultaneously caused a bottleneck at buffet counters. In 2025, staggering lunch by 15 minutes across Track A and Track B reduced wait times to under 4 minutes.
 - **Lesson: Stage Wi-Fi Must Be Physically Isolated:** General attendee smartphone traffic will saturate consumer-grade access points. Stage presentation laptops must either use hardwired Cat-6 Ethernet or a hidden, prioritized VLAN.
 - **Lesson: QR Check-In Eliminates Morning Queues:** Switching from manual paper check-in sheets in 2024 to automated QR-code scanners in 2025 cut morning entry processing time from 45 seconds per person down to 8 seconds per person.
+
+### 1.4 Event Duration & Scheduling: The 3-Day Weekday Bottleneck
+- **The Challenge (2024 & 2025 Editions):** Both the 2024 edition (Jan 9–11, 2025: Thursday, Friday, Saturday) and the 2025 edition (Jan 7–9, 2026: Wednesday, Thursday, Friday) were scheduled as 3-day events spanning working weekdays.
+- **The Core Problem:** Invited keynote speakers are working corporate professionals (Microsoft Employees, Microsoft MVPs, Cloud Architects) with demanding enterprise commitments. Traveling to Amravati on corporate working days (Thursday and Friday) caused major scheduling conflicts, travel delays, and corporate leave constraints. Simultaneously, student attendees faced conflicting weekday college classes and academic lab sessions.
+- **The Strategic Pivot:** For the **2026 Edition**, MSC PRPCEM transitioned from the multi-day weekday format to an intensive, high-impact **1-Day Mega Conference on December 25, 2026 (Christmas Public Holiday)**. Hosting the conference on a recognized holiday completely eliminates corporate leave barriers for outstation speakers and class timetable conflicts for 500 student delegates.
 
 ---
 
@@ -32,6 +37,7 @@ True organizational maturity comes from honest self-evaluation. This document ar
 
 | Challenge Encountered | Edition Year | Immediate Tactical Solution | Permanent Institutional Safeguard |
 | :--- | :--- | :--- | :--- |
+| **Weekday Speaker Travel & Academic Clashes (3-Day Format)** | 2024 & 2025 | Swapped session slots and coordinated late-night train travel | Pivoted 2026 Edition to an intensive 1-Day Mega Conference on December 25 (Public Holiday), eliminating corporate leave and class conflicts. |
 | **Wi-Fi Packet Loss in Balcony** | 2024 | Reset auditorium access points | Deployed mesh Wi-Fi 6 access points with separate attendee VLAN throttles in 2025. |
 | **Un-ticketed Dining Influx** | 2024 | Scaled up food order with caterer | Introduced barcode-verified meal tokens attached to attendee ID badges. |
 | **Speaker Train Delayed by 2 Hours** | 2024 | Swapped Session 2 and Session 3 on stage | Mandated arrival the previous evening with hotel accommodation for all outstation speakers. |

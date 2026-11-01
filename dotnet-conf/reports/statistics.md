@@ -11,37 +11,95 @@ This page compiles the comprehensive longitudinal performance metrics, attendanc
 
 ## 1. Master Historical Statistical Matrix
 
-| Parameter / KPI | 2024 (Inaugural) | 2025 (Scaled) | 2026 (Working Target) | 2027 (Long-Range Goal) |
-| :--- | :--- | :--- | :--- | :--- |
-| **Gross Applications / Registrations** | 520 | 710 | 850 (Cap) | 1,000+ |
-| **Verified Physical Attendees** | **385** | **492** | **600 (Target)** | **750+ (Target)** |
-| **Turnout Conversion Rate** | 74.0% | 69.3% | 70.6% | 75.0% |
-| **Participating Colleges** | 9 | 14 | 18+ | 25+ |
-| **Technical Sessions Delivered** | 6 | 9 (Dual Track) | 12 (Triple Track) | 14+ (Multi-Day) |
-| **Invited Expert Speakers** | 6 | 7 | 10 | 12+ |
-| **Microsoft MVPs Hosted** | 1 | 1 | 2 (Target) | 3+ |
-| **Net Operating Budget Raised** | ₹45,000 | ₹85,000 | ₹1,20,000 | ₹1,75,000 |
-| **In-Kind Sponsorship Valuation** | ₹8,000 | ₹18,000 + $12k tools | ₹25,000 | ₹35,000 |
-| **Financial Balance / Surplus** | ₹0.00 (Balanced) | + ₹1,600.00 | + ₹5,000.00 (Est) | + ₹10,000.00 (Est) |
-| **Female Attendance Ratio** | 30.9% | 38.0% | 42.0% | 45.0% |
-| **Student Volunteers Mobilized** | 24 | 36 | 45 | 60 |
-| **Overall CSAT Satisfaction Score** | **4.6 / 5.0** | **4.8 / 5.0** | **4.85 / 5.0** | **4.9 / 5.0** |
+| Parameter / KPI | 2024 (Inaugural — Jan 2025) | 2025 (Second — Jan 2026) | 2026 (Active — Dec 25, 2026) |
+| :--- | :--- | :--- | :--- |
+| **Duration & Venue** | 3 Days (Seminar Hall) | 3 Days (Seminar Hall) | 1 Day (PRPCEM Campus) |
+| **Gross Applications / Registrations** | 240+ | 300+ | 700 (Cap) |
+| **Verified Physical Attendees** | **180+** | **180+** | **500 (Target)** |
+| **Turnout Conversion Rate** | 75.0% | 70.0% | 71.4% |
+| **Participating Colleges** | 9 | 14 | 18+ |
+| **Technical Sessions Delivered** | 5 | 3 Keynotes | 8+ Sessions |
+| **Invited Expert Speakers** | 5 (Microsoft & MVPs) | 3 (Microsoft & MVPs) | 8+ (Planned) |
+| **Microsoft MVPs & Employees** | Yes | Yes | Yes (Target) |
+| **College Institutional Support** | 100% PRPCEM (₹45,000 Allocation) | 100% PRPCEM (₹85,000 Allocation) | 100% PRPCEM Allocation |
+| **In-Kind Developer Grants** | Institutional Support | $3,800 USD (.xyz + JetBrains) | $9,000+ USD (.xyz + JetBrains + Packt) |
+| **Community Platform Support** | Community Managed | Sessionize CFS & Scheduling | Sessionize CFS & Scheduling |
+| **Financial Balance / Surplus** | ₹0.00 (Balanced) | + ₹1,600.00 | + ₹5,000.00 (Est) |
+| **Female Attendance Ratio** | 30.9% | 38.0% | 42.0% |
+| **Student Volunteers Mobilized** | 24 | 36 | 40 |
+| **Overall CSAT Satisfaction Score** | **4.6 / 5.0** | **4.8 / 5.0** | **4.85 / 5.0 (Target)** |
 
 ---
 
 ## 2. Longitudinal Growth Trends
 
-```
-  ATTENDEE GROWTH TRAJECTORY:
-  2024: [█████████████████████████] 385 Delegates
-  2025: [████████████████████████████████] 492 Delegates (+27.8%)
-  2026: [███████████████████████████████████████] 600 Delegates (Projected +22.0%)
+<div class="stat-card" style="text-align: left; margin: 1.5rem 0; padding: 20px;">
+  <div style="font-weight: 700; margin-bottom: 16px; font-size: 1.05rem; color: #0078D4;">Attendee Growth Trajectory</div>
+  
+  <div style="margin-bottom: 14px;">
+    <div style="display: flex; justify-content: space-between; font-size: 0.88rem; margin-bottom: 5px; font-weight: 600;">
+      <span>2024 Inaugural Edition</span>
+      <span>180+ Verified Delegates</span>
+    </div>
+    <div style="height: 10px; background: rgba(0, 120, 212, 0.12); border-radius: 6px; overflow: hidden;">
+      <div style="width: 36%; height: 100%; background: #0078D4; border-radius: 6px;"></div>
+    </div>
+  </div>
 
-  SPONSORSHIP FUNDING TRAJECTORY:
-  2024: [████████████████] ₹45,000
-  2025: [██████████████████████████████] ₹85,000 (+88.9%)
-  2026: [██████████████████████████████████████████] ₹1,20,000 (Target +41.2%)
-```
+  <div style="margin-bottom: 14px;">
+    <div style="display: flex; justify-content: space-between; font-size: 0.88rem; margin-bottom: 5px; font-weight: 600;">
+      <span>2025 Scaled Edition</span>
+      <span>180+ Verified Delegates</span>
+    </div>
+    <div style="height: 10px; background: rgba(127, 186, 0, 0.12); border-radius: 6px; overflow: hidden;">
+      <div style="width: 36%; height: 100%; background: #7FBA00; border-radius: 6px;"></div>
+    </div>
+  </div>
+
+  <div>
+    <div style="display: flex; justify-content: space-between; font-size: 0.88rem; margin-bottom: 5px; font-weight: 600;">
+      <span>2026 Active Target Capacity</span>
+      <span class="badge badge-info">500 Target</span>
+    </div>
+    <div style="height: 10px; background: rgba(242, 80, 34, 0.12); border-radius: 6px; overflow: hidden;">
+      <div style="width: 100%; height: 100%; background: linear-gradient(90deg, #0078D4, #F25022); border-radius: 6px;"></div>
+    </div>
+  </div>
+</div>
+
+<div class="stat-card" style="text-align: left; margin: 1.5rem 0; padding: 20px;">
+  <div style="font-weight: 700; margin-bottom: 16px; font-size: 1.05rem; color: #7FBA00;">Sponsorship Funding Trajectory</div>
+  
+  <div style="margin-bottom: 14px;">
+    <div style="display: flex; justify-content: space-between; font-size: 0.88rem; margin-bottom: 5px; font-weight: 600;">
+      <span>2024 Cash Sponsorship</span>
+      <span>₹45,000 Raised</span>
+    </div>
+    <div style="height: 10px; background: rgba(0, 120, 212, 0.12); border-radius: 6px; overflow: hidden;">
+      <div style="width: 37.5%; height: 100%; background: #0078D4; border-radius: 6px;"></div>
+    </div>
+  </div>
+
+  <div style="margin-bottom: 14px;">
+    <div style="display: flex; justify-content: space-between; font-size: 0.88rem; margin-bottom: 5px; font-weight: 600;">
+      <span>2025 Cash Sponsorship</span>
+      <span>₹85,000 Raised (+88.9%)</span>
+    </div>
+    <div style="height: 10px; background: rgba(127, 186, 0, 0.12); border-radius: 6px; overflow: hidden;">
+      <div style="width: 70.8%; height: 100%; background: #7FBA00; border-radius: 6px;"></div>
+    </div>
+  </div>
+
+  <div>
+    <div style="display: flex; justify-content: space-between; font-size: 0.88rem; margin-bottom: 5px; font-weight: 600;">
+      <span>2026 Target Sponsorship</span>
+      <span class="badge badge-success">₹1,20,000 Target</span>
+    </div>
+    <div style="height: 10px; background: rgba(242, 80, 34, 0.12); border-radius: 6px; overflow: hidden;">
+      <div style="width: 100%; height: 100%; background: linear-gradient(90deg, #7FBA00, #00A4EF); border-radius: 6px;"></div>
+    </div>
+  </div>
+</div>
 
 ---
 
@@ -61,6 +119,6 @@ Post-conference exit evaluations rate sessions on a 1-to-5 scale across four par
 
 ## 4. Digital Reach & Web Analytics
 
-- **Website Unique Visitors (Conference Cycle):** 2,800 (2024) ➔ 5,400 (2025) ➔ 8,500+ (2026 Projected).
-- **Sessionize CFP Submissions:** 14 proposals (2024) ➔ 28 proposals (2025) ➔ 42 proposals (2026).
-- **Organic Social Media Impressions:** 45,000 (2024) ➔ 185,000 (2025) ➔ 250,000+ (2026 Target).
+- **Website Unique Visitors (Conference Cycle):** 2,800 (2024) → 5,400 (2025) → 8,500+ (2026 Projected).
+- **Sessionize CFP Submissions:** 14 proposals (2024) → 28 proposals (2025) → 42 proposals (2026).
+- **Organic Social Media Impressions:** 45,000 (2024) → 185,000 (2025) → 250,000+ (2026 Target).

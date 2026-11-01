@@ -32,22 +32,22 @@ Slide 10: Formal Contact & Next Steps (Club Execom & Faculty Advisory)
 
 ### Email 1: Initial Executive Outreach
 ```text
-Subject: Partnership Opportunity: .NET Conf Amravati 2026 — Empowering 600+ Engineers
+Subject: Partnership Opportunity: .NET Conf Amravati 2026 — Empowering 500+ Engineers
 
 Dear [Recipient Name/Title],
 
 Greetings from Microsoft Student Club at P. R. Pote Patil College of Engineering and Management (PRPCEM), Amravati.
 
-We are writing to cordially invite [Organization Name] to partner with us as a Corporate Sponsor for the upcoming edition of .NET Conf Amravati 2026, scheduled for March 2026.
+We are writing to cordially invite [Organization Name] to partner with us as an In-Kind / Technology Partner for the upcoming edition of .NET Conf Amravati 2026, scheduled for December 25, 2026.
 
-Following the tremendous success of our past editions—which brought together over 870+ verified student developers, Microsoft MVPs, and software engineers across Maharashtra—.NET Conf Amravati has emerged as Central India's premier community-driven developer symposium.
+Following the tremendous success of our past editions—which brought together over 360+ verified student delegates, Microsoft MVPs, and software engineers across Maharashtra—.NET Conf Amravati has emerged as Central India's premier community-driven developer symposium.
 
-This year, our theme focuses on "Intelligent Cloud Applications with .NET 10 & Semantic Kernel", bringing over 600+ final-year computer science, IT, and AI undergraduates and regional tech professionals to our campus.
+This year, our theme spans the broader Microsoft technology ecosystem including modern .NET, GitHub, Azure Cloud, Artificial Intelligence, DevOps, and Power Platform, bringing over 500 target student developers and regional tech enthusiasts to our campus.
 
 As an esteemed technology leader, a partnership with .NET Conf Amravati will provide [Organization Name] with:
-1. Direct recruitment access to top-tier engineering talent skilled in C#, .NET, Cloud, and AI.
-2. Premium branding across our multi-stage arena, attendee kits, and digital community broadcasts.
-3. Dedicated exhibition booth space to demonstrate your products and interact directly with attendees.
+1. Direct recruitment access to top-tier engineering talent skilled in C#, .NET, GitHub, Azure, AI, DevOps, and Power Platform.
+2. Premium branding across our arena, attendee kits, and digital community broadcasts.
+3. Dedicated space to demonstrate your developer tools and interact directly with attendees.
 
 Attached is our official Sponsorship Prospectus detailing package tiers and deliverables. We would welcome a brief 15-minute introductory call this week to explore how we can tailor this collaboration to your recruitment and brand objectives.
 
@@ -57,8 +57,8 @@ Warm regards,
 
 [Student Lead Name]
 Corporate Outreach Head | Microsoft Student Club PRPCEM
-Email: dotnetconf@mscprpcem.tech | Web: https://mscprpcem.tech
-Under the guidance of: Department of Computer Science & Engineering, PRPCEM Amravati
+Email: dotnetconfamt@prpotepatilengg.ac.in | Web: https://dnc.mscprpcem.tech/
+Under the guidance of: Faculty Advisor, Microsoft Student Club PRPCEM
 ```
 
 ### Email 2: Follow-Up Sequence (5 Days Post Initial Dispatch)

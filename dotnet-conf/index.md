@@ -11,11 +11,11 @@ description: "The authoritative institutional knowledge base, operational bluepr
     <div class="stat-label">Conference Editions</div>
   </div>
   <div class="stat-card">
-    <div class="stat-value">1,400+</div>
+    <div class="stat-value">500+</div>
     <div class="stat-label">Total Attendees</div>
   </div>
   <div class="stat-card">
-    <div class="stat-value">25+</div>
+    <div class="stat-value">10+</div>
     <div class="stat-label">Expert Speakers</div>
   </div>
   <div class="stat-card">
@@ -30,7 +30,7 @@ description: "The authoritative institutional knowledge base, operational bluepr
 
 **.NET Conf Amravati** is the premier annual technical conference organized by **Microsoft Student Club PRPCEM (MSC PRPCEM)** at **P. R. Pote (Patil) College of Engineering and Management, Amravati, Maharashtra**. 
 
-Conceived as an institutional landmark and regional flagship, .NET Conf Amravati brings together students, professional software engineers, open-source maintainers, Microsoft MVPs (Most Valuable Professionals), and cloud architects across Maharashtra and Central India. The conference delivers deep technical sessions on the modern .NET ecosystem, enterprise cloud architecture with Microsoft Azure, cross-platform app development, and AI engineering.
+Conceived as an institutional landmark and regional flagship, .NET Conf Amravati brings together students, professional software engineers, open-source maintainers, Microsoft MVPs, and cloud architects across Maharashtra and Central India. The conference delivers deep technical sessions spanning the holistic Microsoft engineering ecosystem: **upcoming .NET releases, GitHub, Microsoft Azure Cloud-Native, Artificial Intelligence (AI & Semantic Kernel), DevOps CI/CD pipelines, and Power Platform**.
 
 This documentation portal serves as the permanent, edition-agnostic repository of organizational knowledge, standard operating procedures (SOPs), multi-year sponsorship records, financial statements, and technical archives. It ensures institutional memory persists across graduating student committees.
 
@@ -40,38 +40,64 @@ This documentation portal serves as the permanent, edition-agnostic repository o
 
 Historically, major premier developer conferences in India remained concentrated in metropolitan technology hubs such as Bengaluru, Pune, Hyderabad, and the National Capital Region. Aspiring student developers and regional IT practitioners in tier-2 and tier-3 regions—such as Vidarbha—faced geographic and economic hurdles in accessing enterprise-grade technical mentorship, direct networking with Microsoft product leaders, and hands-on exposure to cutting-edge development stacks.
 
-In late 2023, the core leadership of MSC PRPCEM, backed by faculty advisors in the Department of Computer Science & Engineering and Information Technology, envisioned bringing the world-renowned **.NET Conf** community spirit directly to Amravati.
+In 2024, following the establishment of Microsoft Student Club PRPCEM, the student leadership backed by club faculty advisors and institutional patrons envisioned bringing the world-renowned **.NET Conf** community spirit directly to Amravati.
 
-```
-           [ 2023: Foundation & Groundwork ]
-                          │
-                          ▼
-           [ 2024: Inaugural Edition (.NET 8) ]
-           • 350+ Attendees • 6 MVP Speakers • 1 Day
-                          │
-                          ▼
-           [ 2025: Scaled Edition (.NET 9 + Cloud) ]
-           • 480+ Attendees • Regional Outreach • Dual Track
-                          │
-                          ▼
-           [ 2026: Flagship Edition (.NET 10 & AI) ]
-           • 600+ Target • Multi-Community Collaboration
-```
+<div class="roadmap-timeline">
+  <div class="roadmap-item">
+    <div class="roadmap-node">2024</div>
+    <div class="roadmap-content">
+      <div class="roadmap-title">Inaugural Edition (Upcoming .NET 9 & Microsoft Ecosystem)</div>
+      <p class="roadmap-desc">Historic 3-day technical symposium (Thursday–Saturday) hosted January 9–11, 2025 in the PRPCEM Seminar Hall, exploring preview .NET 9, GitHub, Azure, AI, DevOps, and Power Platform with 5 speakers (Microsoft Employees & Microsoft MVPs).</p>
+      <div class="roadmap-tags">
+        <span class="badge badge-success">180+ Attendees</span>
+        <span class="badge badge-info">5 Speakers</span>
+        <span class="badge badge-warning">Jan 9–11, 2025</span>
+        <span class="badge badge-neutral">Seminar Hall</span>
+      </div>
+    </div>
+  </div>
+  <div class="roadmap-item">
+    <div class="roadmap-node">2025</div>
+    <div class="roadmap-content">
+      <div class="roadmap-title">Second Edition (Upcoming .NET 10, Cloud-Native Azure & AI)</div>
+      <p class="roadmap-desc">3-day technical conference hosted January 7–9, 2026 in the PRPCEM Seminar Hall, exploring upcoming .NET 10, GitHub Actions, Azure, Semantic Kernel AI, and Power Platform with 3 speakers (Microsoft Employees & Microsoft MVPs).</p>
+      <div class="roadmap-tags">
+        <span class="badge badge-success">180+ Attendees</span>
+        <span class="badge badge-info">3 Speakers</span>
+        <span class="badge badge-warning">Jan 7–9, 2026</span>
+        <span class="badge badge-neutral">Seminar Hall</span>
+      </div>
+    </div>
+  </div>
+  <div class="roadmap-item">
+    <div class="roadmap-node highlight">2026</div>
+    <div class="roadmap-content">
+      <div class="roadmap-title">Current Active Edition (1-Day Holiday Mega Conference) <span class="badge badge-info">Active</span></div>
+      <p class="roadmap-desc">Transitioned to an intensive 1-Day Mega Conference on December 25, 2026 (Christmas Public Holiday) to eliminate weekday corporate leave and student lecture conflicts, targeting 500 delegates across Maharashtra.</p>
+      <div class="roadmap-tags">
+        <span class="badge badge-success">500 Target</span>
+        <span class="badge badge-info">1-Day Holiday</span>
+        <span class="badge badge-warning">Dec 25, 2026</span>
+        <span class="badge badge-neutral">PRPCEM Campus</span>
+      </div>
+    </div>
+  </div>
+</div>
 
 ---
 
 ## 3. Scope & Critical Distinctions
 
-To maintain absolute organizational clarity and compliance with Microsoft Community & Trademark guidelines, the conference leadership maintains strict distinctions across three distinct entities:
+To maintain absolute organizational clarity and compliance with Microsoft Community & Trademark guidelines, the conference leadership maintains a strict distinction between the global launch event and the local community edition:
 
-| Category | Global .NET Conf | .NET Conf Amravati (This Conference) | MSC Community Workshops |
-| :--- | :--- | :--- | :--- |
-| **Organizing Entity** | Microsoft Corporation & .NET Foundation | Microsoft Student Club PRPCEM | MSC PRPCEM Internal Core Team |
-| **Format** | 3-day global virtual livestream broadcast | In-person regional multi-track conference | Hands-on lab / classroom study jams |
-| **Cadence** | Annual (Every November with new .NET GA) | Annual flagship regional gathering | Monthly / bi-weekly technical sessions |
-| **Target Audience** | Global software development ecosystem | Regional engineering students & professionals | Campus students & club members |
-| **Primary Scope** | Official runtime releases (.NET 8, 9, 10) | Local implementation, career mentorship, labs | Skill onboarding & fundamental coding |
-| **Official Status** | Official Microsoft product launch | Autonomous community-driven regional edition | Internal club training & development |
+| Parameter | Global .NET Conf | .NET Conf Amravati (Local Community Edition) |
+| :--- | :--- | :--- |
+| **Organizing Entity** | Microsoft Corporation & .NET Foundation | Microsoft Student Club PRPCEM |
+| **Format** | 3-day global virtual livestream broadcast | In-person regional multi-track conference |
+| **Cadence** | Annual (Every November with new .NET GA) | Annual flagship regional gathering |
+| **Target Audience** | Global software development ecosystem | Regional engineering students & professionals |
+| **Primary Scope** | Official runtime releases (.NET 8, 9, 10) | Local implementation, career mentorship, and technical sessions |
+| **Official Status** | Official Microsoft product launch | Autonomous community-driven regional edition |
 
 ::: tip Autonomous Community Initiative
 .NET Conf Amravati is organized independently by Microsoft Student Club PRPCEM under community event guidelines. It does not claim direct commercial affiliation or official corporate sponsorship from Microsoft Corporation unless formal event partner agreements are executed for a given edition.
@@ -98,32 +124,32 @@ To maintain absolute organizational clarity and compliance with Microsoft Commun
 .NET Conf Amravati is planned, executed, and archived by the dedicated Conference Steering Committee under the auspices of MSC PRPCEM:
 
 - **Host Institution:** P. R. Pote (Patil) College of Engineering and Management, Pote Estate, Kathora Road, Amravati, Maharashtra 444604.
-- **Convening Department:** Department of Computer Science & Engineering / Information Technology.
+- **Organizing Body:** Microsoft Student Club PRPCEM (MSC PRPCEM).
 - **Student Leadership:** Microsoft Student Club PRPCEM Executive Board.
-- **Faculty Advisory:** Faculty Advisor & Head of Department (HOD) - CSE/IT.
+- **Faculty Advisory:** Faculty Advisor & Club Mentors, MSC PRPCEM.
 - **Official Club Portal:** [https://mscprpcem.tech/](https://mscprpcem.tech/)
-- **Conference Portal:** [https://mscprpcem.tech/events/dotnetconf](https://mscprpcem.tech/events/dotnetconf)
-- **Official Inquiries:** `msc@prpotepatilengg.ac.in`
+- **Conference Portal:** [https://dnc.mscprpcem.tech/](https://dnc.mscprpcem.tech/)
+- **.NET Conf Email:** `dotnetconfamt@prpotepatilengg.ac.in`
+- **Official Club Email:** `mlsc@prpotepatilengg.ac.in`
 
 ---
 
 ## 6. Conference Editions Summary
 
-| Edition | Calendar Date | Theme / Focus | Venue | Status | Attendees | Sessions | Keynote Speaker |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **[2024 Edition](/dotnet-conf/editions/2024)** | March 16, 2024 | *Igniting Modern .NET 8 & Cloud Horizons* | Main Auditorium, PRPCEM | Completed | 385 | 7 | Microsoft MVP Guest |
-| **[2025 Edition](/dotnet-conf/editions/2025)** | February 22, 2025 | *Enterprise Scalability with .NET 9 & Azure* | Central Seminar Hall Complex | Completed | 492 | 9 | Principal Cloud Architect |
-| **[2026 Edition](/dotnet-conf/editions/2026)** | March 2026 | *Intelligent Cloud Apps with .NET 10 & Semantic Kernel* | PRPCEM Tech Arena | Current Active | 600 (Est) | 12 (Planned) | TBA |
-| **[2027 Edition](/dotnet-conf/editions/2027)** | Q1 2027 | *Decentralized Microservices & Edge .NET* | PRPCEM Convention Hall | Planned | 750 (Target) | 14 (Target) | Pending Outreach |
+| Edition | Calendar Date | Theme / Focus | Venue | Status | Attendees | Keynote Speakers |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **[2024 Edition](/dotnet-conf/editions/2024)** | January 9–11, 2025 | *Upcoming .NET 9, GitHub, Azure, AI, DevOps & Power Platform* | Seminar Hall, PRPCEM | Completed (3 Days) | 180+ | 5 (Microsoft Employees & MVPs) |
+| **[2025 Edition](/dotnet-conf/editions/2025)** | January 7–9, 2026 | *Upcoming .NET 10, Azure Cloud-Native, Semantic Kernel & Power Platform* | Seminar Hall, PRPCEM | Completed (3 Days) | 180+ | 3 (Microsoft Employees & MVPs) |
+| **[2026 Edition](/dotnet-conf/editions/2026)** | December 25, 2026 | *Modern Microsoft Stack: Upcoming .NET, GitHub, Azure, AI Agents & DevOps* | PRPCEM Campus | Active (1-Day Holiday) | 500 (Target) | 8+ Planned (Microsoft Employees & MVPs) |
 
 ---
 
 ## 7. Key Achievements & Milestones
 
-- **Vidarbha's Largest .NET Gathering:** Over 1,400+ cumulatively registered student and professional attendees across past editions.
-- **100% Industry Sponsorship Funding:** Consecutively self-funded through local IT industries, tech sponsors, and community support without charging prohibitive student entry fees.
+- **Vidarbha's Premier Microsoft Developer Gathering:** Over 540+ registered and 360+ verified student delegates across completed editions, targeting 500 delegates for the 2026 holiday mega conference.
+- **100% Institutional & In-Kind Support:** Backed institutionally by PRPCEM college facilities and empowered by developer tooling grants (.xyz Domains, JetBrains, Packt, Sessionize) without charging delegate registration fees.
 - **Distinguished Speaker Roster:** Hosted multiple Microsoft MVPs, Microsoft Certified Trainers (MCTs), and Senior Technical Architects.
-- **Institutional Accreditation Impact:** Formally recognized by institutional NBA/NAAC evaluators as an exemplary student-led industry-connect platform.
+- **Institutional Accreditation Impact:** Formally recognized by institutional evaluators as an exemplary student-led industry-connect platform.
 - **Zero Carbon Paper Footprint:** All attendee badges, event guides, feedback collection, and certificates managed digitally through cloud automation.
 
 ---
@@ -134,39 +160,39 @@ Explore the detailed sub-sections of this documentation platform:
 
 <div class="quick-nav-grid">
   <a href="/dotnet-conf/editions/" class="quick-nav-card">
-    <div class="quick-nav-title">📅 Annual Editions</div>
-    <p class="quick-nav-desc">Complete multi-year dossiers for 2024, 2025, 2026, 2027, and future expansion frameworks.</p>
+    <div class="quick-nav-title">Annual Editions</div>
+    <p class="quick-nav-desc">Complete multi-year dossiers for 2024, 2025, 2026, and future expansion frameworks.</p>
   </a>
   <a href="/dotnet-conf/sponsors/" class="quick-nav-card">
-    <div class="quick-nav-title">🤝 Sponsors & Partnerships</div>
+    <div class="quick-nav-title">Sponsors & Partnerships</div>
     <p class="quick-nav-desc">Central sponsor directory, 15-step outreach pipeline, package matrices, and deliverable tracking.</p>
   </a>
   <a href="/dotnet-conf/speakers/" class="quick-nav-card">
-    <div class="quick-nav-title">🎙️ Speakers & Experts</div>
+    <div class="quick-nav-title">Speakers & Experts</div>
     <p class="quick-nav-desc">Central speaker network, historical session archive, presentation slides, and outreach templates.</p>
   </a>
   <a href="/dotnet-conf/operations/" class="quick-nav-card">
-    <div class="quick-nav-title">⚙️ Operations & SOPs</div>
+    <div class="quick-nav-title">Operations & SOPs</div>
     <p class="quick-nav-desc">Event day run sheets, venue logistics, team responsibilities, vendor management, and risk compliance.</p>
   </a>
   <a href="/dotnet-conf/finance/" class="quick-nav-card">
-    <div class="quick-nav-title">💰 Finance & Budgets</div>
+    <div class="quick-nav-title">Finance & Budgets</div>
     <p class="quick-nav-desc">Edition budgets, sponsorship reconciliation, expense audits, and in-kind valuation ledgers.</p>
   </a>
   <a href="/dotnet-conf/marketing/" class="quick-nav-card">
-    <div class="quick-nav-title">🎨 Marketing & Brand</div>
+    <div class="quick-nav-title">Marketing & Brand</div>
     <p class="quick-nav-desc">Brand assets, social media campaigns, promotional copy, and Microsoft logo compliance guidelines.</p>
   </a>
   <a href="/dotnet-conf/reports/" class="quick-nav-card">
-    <div class="quick-nav-title">📊 Reports & Impact</div>
+    <div class="quick-nav-title">Reports & Impact</div>
     <p class="quick-nav-desc">Consolidated edition reports, historical attendee statistics, and regional community growth analytics.</p>
   </a>
   <a href="/dotnet-conf/knowledge-base/" class="quick-nav-card">
-    <div class="quick-nav-title">📚 Knowledge Base & SOPs</div>
+    <div class="quick-nav-title">Knowledge Base & SOPs</div>
     <p class="quick-nav-desc">20 standard copy-paste templates, cross-edition retrospectives, best practices, and committee handovers.</p>
   </a>
   <a href="/dotnet-conf/archive/" class="quick-nav-card">
-    <div class="quick-nav-title">🗄️ Resource Archive</div>
+    <div class="quick-nav-title">Resource Archive</div>
     <p class="quick-nav-desc">Central tagged document repository for proposals, minutes, budget sheets, and media assets.</p>
   </a>
 </div>
@@ -177,7 +203,8 @@ Explore the detailed sub-sections of this documentation platform:
 
 - **Primary Repository:** [https://github.com/mscprpcem/docs](https://github.com/mscprpcem/docs)
 - **Conference Hashtag:** `#dotNETConfAmravati` `#MSCPRPCEM` `#dotNETCommunity`
-- **LinkedIn Community:** [Microsoft Student Club PRPCEM](https://www.linkedin.com/company/msc-prpcem/)
-- **Instagram Official:** `@msc_prpcem`
+- **LinkedIn Community:** [Microsoft Student Club PRPCEM](https://www.linkedin.com/company/mscprpcem/)
+- **Instagram Official:** [@mscprpcem](https://www.instagram.com/mscprpcem/)
 - **YouTube Archive:** [MSC PRPCEM Tech Broadcasts](https://www.youtube.com/@mscprpcem)
-- **Email Dispatch:** `dotnetconf@mscprpcem.tech` / `msc@prpotepatilengg.ac.in`
+- **.NET Conf Inquiries:** `dotnetconfamt@prpotepatilengg.ac.in`
+- **Official Club Email:** `mlsc@prpotepatilengg.ac.in`

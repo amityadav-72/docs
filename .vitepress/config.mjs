@@ -14,6 +14,13 @@ export default defineConfig({
     ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap' }]
   ],
 
+  markdown: {
+    config: (md) => {
+      md.renderer.rules.table_open = () => '<div class="table-container"><table>';
+      md.renderer.rules.table_close = () => '</table></div>';
+    }
+  },
+
   themeConfig: {
     siteTitle: 'MSC PRPCEM',
     logo: '/MSC_logo.png',
@@ -56,7 +63,6 @@ export default defineConfig({
             { text: '2024 Edition (Inaugural)', link: '/dotnet-conf/editions/2024' },
             { text: '2025 Edition', link: '/dotnet-conf/editions/2025' },
             { text: '2026 Edition (Current)', link: '/dotnet-conf/editions/2026' },
-            { text: '2027 Edition (Planning)', link: '/dotnet-conf/editions/2027' },
             { text: 'Future Editions Framework', link: '/dotnet-conf/editions/future-editions' }
           ]
         },

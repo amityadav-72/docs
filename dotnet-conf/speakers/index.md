@@ -15,16 +15,23 @@ This section maintains the permanent directory of speakers across all conference
 
 The Technical Program Committee enforces strict quality criteria for all accepted sessions:
 
-```
-┌────────────────────────────────────────────────────────────────────────┐
-│                      SPEAKER SELECTION STANDARDS                       │
-├────────────────────┬────────────────────┬──────────────────────────────┤
-│ 1. Deep Technical  │ 2. Live Code & Demos│ 3. Architecture & Trade-Offs │
-│ Minimum 60% of     │ Real-time terminal │ Explaining real-world        │
-│ session time must  │ or IDE execution   │ scalability, latency, cost,  │
-│ be code/arch.      │ is mandatory.      │ and security decisions.      │
-└────────────────────┴────────────────────┴──────────────────────────────┘
-```
+<div class="pillar-grid">
+  <div class="pillar-card">
+    <div class="pillar-num">CRITERION 01</div>
+    <div class="pillar-title">Deep Technical Substance</div>
+    <p class="pillar-desc">Minimum 60% of session time must be dedicated to real-world code, architecture, or performance benchmarks.</p>
+  </div>
+  <div class="pillar-card">
+    <div class="pillar-num">CRITERION 02</div>
+    <div class="pillar-title">Live Code Demonstrations</div>
+    <p class="pillar-desc">Real-time terminal, IDE, or cloud console execution is mandatory; pure slide presentations are not accepted.</p>
+  </div>
+  <div class="pillar-card">
+    <div class="pillar-num">CRITERION 03</div>
+    <div class="pillar-title">Architectural Trade-Offs</div>
+    <p class="pillar-desc">Sessions must explain real-world scalability, latency, operational cost, and zero-trust security trade-offs.</p>
+  </div>
+</div>
 
 ### Prohibited Content
 - Pure sales pitches, product advertisements, or marketing slides.
@@ -37,15 +44,15 @@ The Technical Program Committee enforces strict quality criteria for all accepte
 
 <div class="quick-nav-grid">
   <a href="/dotnet-conf/speakers/directory" class="quick-nav-card">
-    <div class="quick-nav-title">🎙️ Speaker Directory</div>
+    <div class="quick-nav-title">Speaker Directory</div>
     <p class="quick-nav-desc">Permanent profiles of all invited and selected speakers, biographies, expertise, and contact logs.</p>
   </a>
   <a href="/dotnet-conf/speakers/sessions" class="quick-nav-card">
-    <div class="quick-nav-title">📚 Session Archive</div>
+    <div class="quick-nav-title">Session Archive</div>
     <p class="quick-nav-desc">Multi-year archive of all technical sessions, abstracts, slide decks, GitHub code repos, and recordings.</p>
   </a>
   <a href="/dotnet-conf/speakers/resources" class="quick-nav-card">
-    <div class="quick-nav-title">📑 Speaker Resources & Templates</div>
+    <div class="quick-nav-title">Speaker Resources & Templates</div>
     <p class="quick-nav-desc">Speaker invitation letters, briefing packets, technical AV checklists, and formal thank-you letters.</p>
   </a>
 </div>

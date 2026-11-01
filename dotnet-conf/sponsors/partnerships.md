@@ -13,18 +13,23 @@ Beyond financial sponsorships, **.NET Conf Amravati** relies on strategic collab
 
 To maintain clarity, all non-financial relationships are categorized into three distinct operational tiers:
 
-```
-┌────────────────────────────────────────────────────────────────────────┐
-│                        PARTNERSHIP TIERS                               │
-├────────────────────┬────────────────────┬──────────────────────────────┤
-│ Formal Strategic   │ Community Alliance │ One-Time Technical           │
-│ Partner            │ (Ongoing)          │ Contributor                  │
-│ Governed by signed │ Mutual promotion,  │ Single-edition session       │
-│ institutional MoU; │ shared call for    │ delivery or localized        │
-│ recurring annual   │ speakers, joint    │ workshop without formal      │
-│ co-branding.       │ study jams.        │ multi-year commitment.       │
-└────────────────────┴────────────────────┴──────────────────────────────┘
-```
+<div class="pillar-grid">
+  <div class="pillar-card">
+    <div class="pillar-num">TIER 01</div>
+    <div class="pillar-title">Formal Strategic Partner</div>
+    <p class="pillar-desc">Governed by signed institutional MoUs; recurring annual co-branding, curriculum evaluation, and dedicated advisory participation.</p>
+  </div>
+  <div class="pillar-card">
+    <div class="pillar-num">TIER 02</div>
+    <div class="pillar-title">Community Alliance</div>
+    <p class="pillar-desc">Ongoing bilateral collaboration: cross-promotional broadcasts, shared Call for Speakers, and regional study jam co-hosting.</p>
+  </div>
+  <div class="pillar-card">
+    <div class="pillar-num">TIER 03</div>
+    <div class="pillar-title">One-Time Technical Contributor</div>
+    <p class="pillar-desc">Single-edition session delivery, specialized hands-on lab mentoring, or localized tool sponsorship without multi-year commitments.</p>
+  </div>
+</div>
 
 ---
 
@@ -47,7 +52,7 @@ To maintain clarity, all non-financial relationships are categorized into three 
 
 ---
 
-### Partner-02: Department of CSE & IT, SGBAU Affiliated Colleges Network
+### Partner-02: Regional Engineering Colleges Student Network
 - **Organization:** Regional Consortium of Sant Gadge Baba Amravati University Engineering Colleges
 - **Partnership Classification:** <span class="badge badge-success">Academic Partnership Network</span>
 - **Collaboration Purpose:** Academic mobilization, faculty delegation attendance, and inter-collegiate student participation.
@@ -92,6 +97,22 @@ To maintain clarity, all non-financial relationships are categorized into three 
 - **Agreements:** Informal community alignment.
 - **Outcomes:** 18 first-time student pull requests merged into community open-source repositories within 7 days.
 - **Future Opportunities:** Expanding into an annual open-source sprint day during future editions.
+
+---
+
+### Partner-05: Sessionize
+- **Organization:** Sessionize
+- **Partnership Classification:** <span class="badge badge-success">Official Community Platform Partner</span>
+- **Collaboration Purpose:** Call for Speakers (CFS) infrastructure, speaker review scoring, and event timetable scheduling.
+- **Official Website:** [https://sessionize.com/](https://sessionize.com/)
+- **Relationship Owner:** Technical Program Lead (MSC PRPCEM)
+- **Editions Involved:** [2025 Edition](/dotnet-conf/editions/2025), [2026 Edition](/dotnet-conf/editions/2026)
+- **Activities Conducted:**
+  - Automated Call for Speakers (CFS) workflow for industry experts, Microsoft MVPs, and community speakers.
+  - Blind evaluation and scoring by the Technical Committee to ensure bias-free session curation.
+  - Public timetable embedding directly into the official event portal [`https://dnc.mscprpcem.tech/`](https://dnc.mscprpcem.tech/).
+- **Agreements:** Community Event Partnership.
+- **Outcomes:** Dramatically streamlined speaker onboarding and elevated conference scheduling to international standards.
 
 ---
 

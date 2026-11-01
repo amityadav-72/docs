@@ -43,4 +43,4 @@ How to turn attendees into lifelong community advocates:
 How to run a team of 40+ student volunteers smoothly:
 1. **Shift Rotations:** Never force student volunteers to work the entire 10 hours continuously. Rotate teams between morning and afternoon shifts so everyone attends sessions.
 2. **Official Uniforms:** Provide matching club volunteer t-shirts and walkie-talkies to instill pride and clear visual identification for attendees.
-3. **Daily Debrief & Appreciation:** Conclude the event with an internal team dinner, group photograph, and personalized Certificates of Organizing Excellence awarded by the Department Head.
+3. **Daily Debrief & Appreciation:** Conclude the event with an internal team dinner, group photograph, and personalized Certificates of Organizing Excellence awarded by the Faculty Advisor and Club Leadership.

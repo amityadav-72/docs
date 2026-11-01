@@ -13,17 +13,28 @@ This Knowledge Base serves as the permanent institutional memory of **.NET Conf 
 
 ## 1. The Institutional Continuity Philosophy
 
-```
-┌────────────────────────────────────────────────────────────────────────┐
-│                        CONTINUITY PRINCIPLES                           │
-├──────────────────┬──────────────────┬─────────────────┬────────────────┤
-│ 1. Codify Every  │ 2. Frank Self-   │ 3. Standardize  │ 4. Formal      │
-│ Playbook         │ Evaluation       │ All Artifacts   │ Handover       │
-│ Every operational│ Honest post-event│ 20 copy-paste   │ Mandatory exit │
-│ process must be  │ retrospectives   │ templates ensure│ dossier signed │
-│ documented.      │ prevent errors.  │ high quality.   │ by outgoing.   │
-└──────────────────┴──────────────────┴─────────────────┴────────────────┘
-```
+<div class="pillar-grid">
+  <div class="pillar-card">
+    <div class="pillar-num">PRINCIPLE 01</div>
+    <div class="pillar-title">Codify Every Playbook</div>
+    <p class="pillar-desc">Every operational process, sponsor negotiation script, and stage cue is written down in permanent SOPs.</p>
+  </div>
+  <div class="pillar-card">
+    <div class="pillar-num">PRINCIPLE 02</div>
+    <div class="pillar-title">Frank Retrospectives</div>
+    <p class="pillar-desc">Honest, unvarnished post-event retrospectives prevent successive student cohorts from repeating past mistakes.</p>
+  </div>
+  <div class="pillar-card">
+    <div class="pillar-num">PRINCIPLE 03</div>
+    <div class="pillar-title">Standardized Templates</div>
+    <p class="pillar-desc">20 copy-paste documentation templates ensure professional, consistent communications and auditing across years.</p>
+  </div>
+  <div class="pillar-card">
+    <div class="pillar-num">PRINCIPLE 04</div>
+    <div class="pillar-title">Formal Handover Protocol</div>
+    <p class="pillar-desc">Mandatory transition dossiers, digital asset transfer checklists, and relationship debriefs signed before graduation.</p>
+  </div>
+</div>
 
 ---
 
@@ -31,19 +42,19 @@ This Knowledge Base serves as the permanent institutional memory of **.NET Conf 
 
 <div class="quick-nav-grid">
   <a href="/dotnet-conf/knowledge-base/templates" class="quick-nav-card">
-    <div class="quick-nav-title">📑 20 Standard Templates</div>
+    <div class="quick-nav-title">20 Standard Templates</div>
     <p class="quick-nav-desc">Complete copy-paste reusable templates for proposals, speaker outreach, sponsor agreements, budgets, and run sheets.</p>
   </a>
   <a href="/dotnet-conf/knowledge-base/lessons-learned" class="quick-nav-card">
-    <div class="quick-nav-title">💡 Lessons Learned & Retrospectives</div>
+    <div class="quick-nav-title">Lessons Learned & Retrospectives</div>
     <p class="quick-nav-desc">Cross-edition retrospective insights, resolved operational challenges, and past mistakes avoided.</p>
   </a>
   <a href="/dotnet-conf/knowledge-base/best-practices" class="quick-nav-card">
-    <div class="quick-nav-title">🌟 Conference Best Practices</div>
+    <div class="quick-nav-title">Conference Best Practices</div>
     <p class="quick-nav-desc">Proven operational formulas for sponsor retention, speaker care, attendee satisfaction, and team motivation.</p>
   </a>
   <a href="/dotnet-conf/knowledge-base/handover" class="quick-nav-card">
-    <div class="quick-nav-title">🤝 Handover & Transition Guide</div>
+    <div class="quick-nav-title">Handover & Transition Guide</div>
     <p class="quick-nav-desc">"What the Next Organizing Team Should Know", transition timeline, asset checklists, and leadership debriefs.</p>
   </a>
 </div>

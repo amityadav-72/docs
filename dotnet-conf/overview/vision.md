@@ -19,17 +19,28 @@ This document outlines the foundational philosophy, strategic goals, and regiona
 
 The conference operates under five core strategic pillars:
 
-```
-┌────────────────────────────────────────────────────────────────────────┐
-│                        STRATEGIC PILLARS                               │
-├──────────────────┬──────────────────┬─────────────────┬────────────────┤
-│ 1. Tech Equity   │ 2. Deep Practice │ 3. Industry     │ 4. Talent Hub  │
-│ Democratizing    │ Moving beyond    │ Direct sponsor, │ Facilitating   │
-│ tier-1 developer │ syntax into      │ recruitment, and│ internships,   │
-│ learning for     │ architectural    │ open mentorship │ placements, and│
-│ regional youth.  │ production code. │ relationships.  │ open-source.   │
-└──────────────────┴──────────────────┴─────────────────┴────────────────┘
-```
+<div class="pillar-grid">
+  <div class="pillar-card">
+    <div class="pillar-num">PILLAR 01</div>
+    <div class="pillar-title">Tech Equity</div>
+    <p class="pillar-desc">Democratizing tier-1 developer learning and mentorship for regional youth across Vidarbha.</p>
+  </div>
+  <div class="pillar-card">
+    <div class="pillar-num">PILLAR 02</div>
+    <div class="pillar-title">Deep Practice</div>
+    <p class="pillar-desc">Moving beyond basic syntax into production-grade enterprise architecture, testing, and cloud performance.</p>
+  </div>
+  <div class="pillar-card">
+    <div class="pillar-num">PILLAR 03</div>
+    <div class="pillar-title">Industry Bridge</div>
+    <p class="pillar-desc">Direct corporate sponsorships, talent recruitment lounges, and unmediated access to engineering leaders.</p>
+  </div>
+  <div class="pillar-card">
+    <div class="pillar-num">PILLAR 04</div>
+    <div class="pillar-title">Talent Acceleration</div>
+    <p class="pillar-desc">Facilitating student internships, open-source repository contributions, and career growth.</p>
+  </div>
+</div>
 
 ### Detailed Objectives
 1. **Democratize High-Tier Tech Education:** Eliminate geographical constraints that force regional engineering students to travel to Mumbai, Pune, or Bengaluru for elite tech symposiums.

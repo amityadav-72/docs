@@ -53,14 +53,15 @@ PHYSICAL HARDWARE & COLLATERAL:
 
 ---
 
-## 3. Active Corporate Sponsor Relationship Notes (Confidential Summary)
+## 3. Institutional Host & Partner Relationship Notes
 
-When approaching existing sponsors for renewal, review their relationship preferences:
+When coordinating with institutional leadership and in-kind partners for future editions, review their collaboration preferences:
 
-- **Zenith Cloud Infrastructure:** Contact Rajesh Sharma in early October. Pitch Title Partnership again. Highlight cloud monitoring demo slots.
-- **Apex Enterprise Software:** Contact Sneha Patil. Emphasize early access to final-year student resumes. Ensure booth table is ready by 08:30 AM on event day.
-- **Vidarbha Infotech Services:** Contact Amit Deshmukh. Value on-stage ceremonial felicitation and regional press coverage.
-- **ThreadCraft Merchandising:** Contact Vikram Verma 3 weeks prior to event day. Provide high-resolution vector logos (.SVG format).
+- **PRPCEM College Administration:** Coordinate with Principal and Faculty Advisor in early September. Submit venue requisition for Seminar Hall / campus auditorium facilities, AV system checks, electrical backup, and college guest house accommodation for visiting Microsoft Employees and MVPs.
+- **.xyz Domains:** Contact developer relations team for student custom domain grants (200 in 2025, 500+ in 2026). Ensure attendee redemption codes and custom domain claiming guidelines are distributed smoothly during onboarding.
+- **JetBrains:** Reach out through academic and community sponsorship programs for IDE vouchers (4 vouchers in 2025, 6 vouchers in 2026). Coordinate distribution for quiz toppers and hackathon participants.
+- **Packt Publishing:** Coordinate technical book voucher grants and digital developer guides for workshop attendees and top contributors.
+- **Sessionize:** Official community partner for Call for Speakers (CFS) and schedule management (active from 2025 edition onwards). Set up event dashboard, speaker profile links, and interactive live timetable on [`https://dnc.mscprpcem.tech/`](https://dnc.mscprpcem.tech/).
 
 ---
 

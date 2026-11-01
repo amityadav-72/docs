@@ -13,26 +13,36 @@ This section houses the permanent institutional system for managing corporate sp
 
 Unlike fragmented student events that discard contact lists at the end of each academic year, .NET Conf Amravati maintains **one single permanent organizational record** for every sponsor, partner, and vendor.
 
-```
-                  ┌─────────────────────────────────────────┐
-                  │       Central Organization Profile      │
-                  │   (e.g., CloudScale Technologies Ltd)   │
-                  └────────────────────┬────────────────────┘
-                                       │
-        ┌──────────────────────────────┼──────────────────────────────┐
-        ▼                              ▼                              ▼
-┌───────────────┐              ┌───────────────┐              ┌───────────────┐
-│ 2024 Edition  │              │ 2025 Edition  │              │ 2026 Edition  │
-│ Title Partner │              │ Platinum Spon.│              │ Renewal Target│
-│ (₹25,000)     │              │ (₹40,000)     │              │ (₹50,000)     │
-└───────────────┘              └───────────────┘              └───────────────┘
-```
+<div class="diagram-container">
+  <div class="diagram-root">
+    <div class="diagram-label">Permanent Partner Profile</div>
+    <div class="diagram-sub">e.g., .xyz Domains / JetBrains / PRPCEM (Central Entities)</div>
+  </div>
+  <div class="diagram-connector-down"></div>
+  <div class="diagram-branches">
+    <div class="diagram-branch-card">
+      <span class="badge badge-success">2024 Edition</span>
+      <div class="diagram-branch-title">PRPCEM Institutional Host</div>
+      <div class="diagram-branch-meta">100% College Logistics • Seminar Hall & AV</div>
+    </div>
+    <div class="diagram-branch-card">
+      <span class="badge badge-success">2025 Edition</span>
+      <div class="diagram-branch-title">In-Kind Developer Grants</div>
+      <div class="diagram-branch-meta">200 .xyz Domains • 4 JetBrains IDE Vouchers • Sessionize</div>
+    </div>
+    <div class="diagram-branch-card highlight">
+      <span class="badge badge-info">2026 Edition</span>
+      <div class="diagram-branch-title">Expanded In-Kind Support</div>
+      <div class="diagram-branch-meta">500+ .xyz Domains • 6 JetBrains Vouchers • Packt • Sessionize</div>
+    </div>
+  </div>
+</div>
 
 ### Core Architecture Rules:
-1. **One Organization, Multiple Editions:** A sponsor who supports multiple editions maintains a single profile in the [Sponsor Directory](/dotnet-conf/sponsors/directory) with discrete records linked to individual editions in [Sponsorship History](/dotnet-conf/sponsors/history).
-2. **Clear Distinction Between Cash vs. In-Kind:** Cash sponsorships are tracked strictly separately from in-kind contributions (e.g. food, merchandise, hosting credits). In-kind items are recorded with their estimated fair market value but never booked as cash income.
-3. **Written Agreement Rule:** No sponsor or partner is entitled to any promotional benefit, booth space, or stage time unless formally ratified in an approved, signed Memorandum of Understanding (MoU) or Sponsorship Agreement.
-4. **Data Protection & Role-Based Access:** Personal contact numbers and direct executive emails are strictly protected for authorized club leadership only.
+1. **One Organization, Multiple Editions:** A partner who supports multiple editions maintains a single profile in the [Sponsor Directory](/dotnet-conf/sponsors/directory) with discrete records linked to individual editions in [Sponsorship History](/dotnet-conf/sponsors/history).
+2. **Clear Distinction Between Cash vs. In-Kind:** In-kind contributions (e.g. software licenses, domain grants, educational books) are tracked with their estimated fair market value but never booked as cash income. All venue and campus logistical expenses are supported institutionally by PRPCEM.
+3. **Student Value First:** Partnerships focus on delivering tangible developer benefits directly to attendees without charging high registration fees.
+4. **Data Protection & Role-Based Access:** Attendee contact details are strictly protected and never commercialized.
 
 ---
 
@@ -59,31 +69,31 @@ To ensure structured engagement, partners are classified into standardized categ
 
 <div class="quick-nav-grid">
   <a href="/dotnet-conf/sponsors/directory" class="quick-nav-card">
-    <div class="quick-nav-title">📁 Sponsor Directory</div>
+    <div class="quick-nav-title">Sponsor Directory</div>
     <p class="quick-nav-desc">Permanent profiles of all corporate sponsors with industry details, relationship owners, and status.</p>
   </a>
   <a href="/dotnet-conf/sponsors/pipeline" class="quick-nav-card">
-    <div class="quick-nav-title">📈 Sponsorship Pipeline</div>
+    <div class="quick-nav-title">Sponsorship Pipeline</div>
     <p class="quick-nav-desc">The 15-step outreach lifecycle, active prospect tracker, and unsuccessful outreach learnings.</p>
   </a>
   <a href="/dotnet-conf/sponsors/packages" class="quick-nav-card">
-    <div class="quick-nav-title">📦 Sponsorship Packages</div>
+    <div class="quick-nav-title">Sponsorship Packages</div>
     <p class="quick-nav-desc">Configurable tier matrices (Title, Platinum, Gold, Silver, Community) and deliverable rules.</p>
   </a>
   <a href="/dotnet-conf/sponsors/history" class="quick-nav-card">
-    <div class="quick-nav-title">📜 Sponsorship History</div>
+    <div class="quick-nav-title">Sponsorship History</div>
     <p class="quick-nav-desc">Multi-year historical record of contributions, agreements, payments, and renewal potentials.</p>
   </a>
   <a href="/dotnet-conf/sponsors/deliverables" class="quick-nav-card">
-    <div class="quick-nav-title">✅ Deliverable Tracking</div>
+    <div class="quick-nav-title">Deliverable Tracking</div>
     <p class="quick-nav-desc">Fulfillment tracking matrix for agreed sponsor benefits with proof of completion.</p>
   </a>
   <a href="/dotnet-conf/sponsors/documents" class="quick-nav-card">
-    <div class="quick-nav-title">📑 Sponsorship Documents</div>
+    <div class="quick-nav-title">Sponsorship Documents</div>
     <p class="quick-nav-desc">Standard proposals, outreach email templates, formal agreement drafts, and invoice templates.</p>
   </a>
   <a href="/dotnet-conf/sponsors/partnerships" class="quick-nav-card">
-    <div class="quick-nav-title">🌐 Partnership Directory</div>
+    <div class="quick-nav-title">Partnership Directory</div>
     <p class="quick-nav-desc">Permanent records of non-financial collaborations with Microsoft user groups, colleges, and open-source bodies.</p>
   </a>
 </div>

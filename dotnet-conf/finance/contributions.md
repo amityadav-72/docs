@@ -1,52 +1,66 @@
 ---
-title: "Sponsorship Income & In-Kind Valuation Ledger — .NET Conf Amravati"
-description: "Itemized accounting of corporate sponsor contributions, bank deposits, payment reconciliations, and distinct in-kind asset valuations."
+title: "Sponsorship & In-Kind Contribution Ledger — .NET Conf Amravati"
+description: "Itemized accounting of institutional college support, in-kind developer grants (.xyz, JetBrains, Packt), and community platform support (Sessionize)."
 ---
 
-# Sponsorship Contributions & In-Kind Valuation Ledger
+# Sponsorship & In-Kind Contribution Ledger
 
-::: warning Accounting Integrity Policy
-In compliance with MSC PRPCEM financial governance, **cash sponsorship payments and in-kind contributions are maintained on separate ledgers**. In-kind goods are tracked using their verified fair market valuation for post-event sponsor reporting, but are never recorded as liquid cash revenue.
+::: warning Accounting & Sponsorship Integrity Policy
+In compliance with MSC PRPCEM governance, **.NET Conf Amravati operates on institutional college support and in-kind developer grants**. External commercial cash sponsorships were not solicited for the 2024 or 2025 editions. All in-kind software licenses, custom domains, and platform tooling are tracked transparently by their fair market value for attendee benefit reporting, but are never booked as liquid cash revenue.
 :::
 
 ---
 
-## 1. Cash Sponsorship Inflow Ledger
+## 1. External Corporate Cash Sponsorship Statement
 
-### 2024 Inaugural Edition Inflows (Audited)
-| Receipt Ref | Contributing Organization | Sponsorship Tier | Cash Amount | Bank Transaction ID | Credit Date | Verification Sign-Off |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| `REC-2024-01` | Zenith Cloud Infrastructure | Title Sponsor | ₹25,000 | `NEFT/CMS/20240212/098` | Feb 12, 2024 | College Accounts Officer |
-| `REC-2024-02` | Vidarbha Infotech Services | Gold Sponsor | ₹15,000 | `RTGS/SBI/20240218/441` | Feb 18, 2024 | College Accounts Officer |
-| `REC-2024-03` | Regional Tech Supporter | Silver Sponsor | ₹5,000 | `UPI/HDFC/20240301/220` | Mar 01, 2024 | Student Treasurer |
-| **Total 2024 Cash** | — | — | **₹45,000** | — | — | **100% Reconciled** |
+### 2024 Inaugural Edition (Audited)
+- **External Corporate Cash Received:** **₹0 (Zero)**
+- **Funding & Support Model:** 100% Institutional College Support.
+- **Institutional Benefactor:** P. R. Pote (Patil) College of Engineering and Management (PRPCEM).
+- **Scope of Institutional Support:** Full Seminar Hall venue reservation, high-speed leased line internet, dual laser projection, stage audio-visual equipment, campus security, electrical backup, and guest house hospitality for visiting Microsoft Employees and Microsoft MVPs.
 
-### 2025 Scaled Edition Inflows (Audited)
-| Receipt Ref | Contributing Organization | Sponsorship Tier | Cash Amount | Bank Transaction ID | Credit Date | Verification Sign-Off |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| `REC-2025-01` | Zenith Cloud Infrastructure | Title Sponsor | ₹40,000 | `NEFT/CMS/20250115/104` | Jan 15, 2025 | College Accounts Officer |
-| `REC-2025-02` | Apex Enterprise Software | Platinum Sponsor | ₹25,000 | `RTGS/ICICI/20250122/882`| Jan 22, 2025 | College Accounts Officer |
-| `REC-2025-03` | Vidarbha Infotech Services | Gold Sponsor | ₹20,000 | `RTGS/SBI/20250202/679` | Feb 02, 2025 | College Accounts Officer |
-| **Total 2025 Cash** | — | — | **₹85,000** | — | — | **100% Reconciled** |
+### 2025 Scaled Edition (Audited)
+- **External Corporate Cash Received:** **₹0 (Zero)**
+- **Funding & Support Model:** 100% Institutional College Support alongside In-Kind Developer Grants.
+- **Institutional Benefactor:** P. R. Pote (Patil) College of Engineering and Management (PRPCEM).
+- **Scope of Institutional Support:** Seminar Hall complex, mesh Wi-Fi 6 networking, campus dining pavilion, power backup, and event staging.
 
----
-
-## 2. In-Kind Contribution & Fair Market Valuation Ledger
-
-In-kind partnerships provide physical goods, apparel, or software tools that reduce out-of-pocket expenses without cash changing hands:
-
-| Edition Year | Contributing Partner | In-Kind Deliverables Provided | Quantity | Fair Market Valuation | Basis of Valuation | Delivery Sign-Off |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **2024** | ThreadCraft Merchandising | Custom printed lanyards & PVC attendee badges | 400 Units | ₹8,000 | Verified against commercial print market quotation | Operations Head |
-| **2025** | ThreadCraft Merchandising | Custom embroidered delegate bags & high-grade lanyards | 500 Units | ₹18,000 | Verified against standard apparel manufacturing rates | Logistics Lead |
-| **2025** | ByteForge Developer Tools | 1-Year Pro IDE diagnostic licenses for attendees | 492 Licenses | $12,000 USD (Virtual Value) | Listed commercial retail price ($24/seat) | Tech Program Lead |
-| **2026 (Est)** | Target Merchandise Partner | Organic cotton conference volunteer t-shirts & bags | 600 Units | ₹25,000 (Target) | Commercial vendor quotation under review | Treasurer |
+### 2026 Active Edition (Working Plan)
+- **Primary Support:** College institutional backing from PRPCEM.
+- **Community Focus:** Powered by in-kind developer grants (.xyz Domains, JetBrains, Packt) and platform management (Sessionize).
 
 ---
 
-## 3. Reconciliation & Audit Sign-Off
+## 2. In-Kind Developer Grants & Community Platform Support Ledger
 
-All sponsorship credits are subjected to bilateral reconciliation:
-1. **Bank Statement Matching:** Every cash credit must correlate with a physical bank deposit counterfoil or official NEFT transaction receipt from the college bank branch.
-2. **Tax & GST Compliance:** Tax deductions at source (TDS) certificates issued by corporate sponsors are processed through the institutional finance office.
-3. **Audit Archive:** Copies of all official corporate receipts and bank statements are preserved in the [Central Document Archive](/dotnet-conf/archive/).
+In-kind partnerships provide high-value developer software tools, custom domains, technical books, and cloud management platforms directly to student attendees:
+
+| Edition Year | Contributing Partner | In-Kind Deliverables Provided | Quantity / Beneficiaries | Fair Market Value | Basis of Valuation | Delivery Sign-Off |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **2024** | PRPCEM (College) | 100% Institutional support (Venue, AV, leased line, hospitality) | Seminar Hall (180+ Attendees) | Institutional Backing | College Sanction Order | Faculty Advisor |
+| **2025** | **.xyz Domains** | Free 1-year custom domain registrations for attendees | 200 Delegates | $3,000 USD | Listed retail registration price ($15/domain) | Tech Program Lead |
+| **2025** | **JetBrains** | Complimentary IDE product license vouchers (Rider / All Products) | 4 Vouchers | $800 USD | Commercial retail license price ($200/voucher) | Technical Director |
+| **2025** | **Sessionize** | Community platform for Call for Speakers (CFS) & schedule management | Event Lifecycle | Community Grant | Sessionize Community Partnership Tier | General Chair |
+| **2026** | **.xyz Domains** | Free 1-year custom domain registrations for all attendees | 500+ Delegates | $7,500+ USD | Listed retail registration price ($15/domain) | Tech Program Director |
+| **2026** | **JetBrains** | Complimentary IDE product license vouchers (Rider / All Products) | 6 Vouchers | $1,500 USD | Commercial retail license price ($250/voucher) | Technical Lead |
+| **2026** | **Packt** | In-kind technical book vouchers, eBooks & developer literature | 500 Attendees & Winners | Educational Grant | Packt Developer Education Partnership | Content Lead |
+| **2026** | **Sessionize** | Community platform for Call for Speakers (CFS) & dynamic schedule | Event Lifecycle | Community Grant | Sessionize Community Partnership Tier | Web Development Lead |
+
+---
+
+## 3. Platform Partnership: Sessionize
+
+Starting from the **2025 Edition**, Microsoft Student Club PRPCEM secured community support from **Sessionize** to manage the conference's speaker curation and session schedule:
+
+1. **Call for Speakers (CFS):** A streamlined, transparent submission portal allowing Microsoft MVPs and technical experts from across India to submit session proposals.
+2. **Review & Evaluation:** Double-blind scoring by the MSC PRPCEM Technical Committee based on syllabus relevance and technical depth.
+3. **Agenda & Schedule Publishing:** Automated schedule engine that renders the live timetable and speaker profiles directly on the official portal [`https://dnc.mscprpcem.tech/`](https://dnc.mscprpcem.tech/).
+
+---
+
+## 4. Reconciliation & Audit Sign-Off
+
+All in-kind developer grants and institutional facility allocations are subjected to strict bilateral review:
+1. **Grant Distribution Audit:** Software license codes and domain redemption vouchers are cross-referenced against verified check-in lists of attendee delegates.
+2. **Zero Commercial Resale Guarantee:** All in-kind assets are strictly non-transferable and issued exclusively to bona fide student participants.
+3. **Audit Archive:** Institutional sanction orders, partner grant confirmations, and distribution logs are preserved in the [Central Document Archive](/dotnet-conf/archive/).

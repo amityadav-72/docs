@@ -27,7 +27,7 @@ This registry indexes all official creative assets, visual templates, high-resol
 
 ### 2024 Inaugural Edition Creatives
 - **Stage Backdrop:** 30x12 ft Star Flex vinyl design featuring deep navy backdrop with .NET 8 purple accents and sponsor logo strip.
-- **Printed Badges:** 400 double-sided gloss-laminated badges with custom lanyards.
+- **Printed Badges:** 200 double-sided gloss-laminated badges with custom lanyards.
 - **Official Photo Archive:** Over 450+ curated high-resolution photos capturing registrations, keynote delivery, audience Q&A, and closing ceremonies.
 - **Archive Access:** [View 2024 Media Repository](/dotnet-conf/archive/)
 
@@ -43,4 +43,4 @@ This registry indexes all official creative assets, visual templates, high-resol
 
 1. **Copyright Ownership:** All graphic designs, photographic assets, and video recordings created by the MSC PRPCEM media committee remain the intellectual property of Microsoft Student Club PRPCEM.
 2. **Community License:** All published presentation slide decks and open-source code demonstrations are licensed under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license.
-3. **Attendee Photography Privacy:** Attendees who request exclusion from public promotional galleries may submit a takedown request to `media@mscprpcem.tech`.
+3. **Attendee Photography Privacy:** Attendees who request exclusion from public promotional galleries may submit a takedown request to `dotnetconfamt@prpotepatilengg.ac.in`.

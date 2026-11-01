@@ -58,12 +58,12 @@ Used for decorative accents, category tagging, and callouts:
 Always respect the intellectual property of Microsoft Corporation and the .NET Foundation:
 :::
 
-### ✅ DO:
+### Approved Practices (DO):
 - Display the official non-affiliation community disclaimer on all conference publications.
 - Refer to the conference as: **".NET Conf Amravati [YEAR], an independent community event organized by Microsoft Student Club PRPCEM"**.
 - Use the official .NET and Azure logos only to indicate technical topics covered in sessions.
 
-### ❌ DO NOT:
+### Prohibited Practices (DO NOT):
 - Do NOT alter, tilt, distort, recolor, or add drop-shadow effects to the Microsoft 4-square logo or .NET logo.
 - Do NOT use phrasing such as *"Microsoft's Official Amravati Conference"* or *"Certified by Microsoft"*.
 - Do NOT combine the Microsoft corporate logo into the student club logo or create hybrid marks.

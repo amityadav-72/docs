@@ -16,12 +16,28 @@ In strict compliance with student data privacy standards, all analytics, charts,
 ### Institutional Distribution (2025 Edition Sample)
 Attendees at .NET Conf Amravati represent a vibrant mix of host college students, regional engineering undergraduates, polytechnic diploma students, and working IT professionals:
 
-```
-[ PRPCEM Host Institution Students: 66% ] ────────────────► 325 Attendees
-[ External Engineering Colleges (Vidarbha): 26% ] ────────► 128 Attendees
-[ Working IT Professionals & Freelancers: 5% ] ───────────► 25 Attendees
-[ Visiting Faculty & Academic Researchers: 3% ] ──────────► 14 Attendees
-```
+<div class="stat-grid" style="margin: 1.5rem 0;">
+  <div class="stat-card">
+    <div class="stat-value" style="font-size: 1.6rem;">66%</div>
+    <div class="stat-label">PRPCEM Students</div>
+    <p style="font-size: 0.8rem; color: var(--vp-c-text-2); margin-top: 4px; margin-bottom: 0;">119 In-House Delegates</p>
+  </div>
+  <div class="stat-card">
+    <div class="stat-value" style="font-size: 1.6rem; color: #7FBA00;">26%</div>
+    <div class="stat-label">External Colleges</div>
+    <p style="font-size: 0.8rem; color: var(--vp-c-text-2); margin-top: 4px; margin-bottom: 0;">47 Regional Delegates</p>
+  </div>
+  <div class="stat-card">
+    <div class="stat-value" style="font-size: 1.6rem; color: #00A4EF;">5%</div>
+    <div class="stat-label">IT Professionals</div>
+    <p style="font-size: 0.8rem; color: var(--vp-c-text-2); margin-top: 4px; margin-bottom: 0;">9 Industry Engineers</p>
+  </div>
+  <div class="stat-card">
+    <div class="stat-value" style="font-size: 1.6rem; color: #FFB900;">3%</div>
+    <div class="stat-label">Faculty & Researchers</div>
+    <p style="font-size: 0.8rem; color: var(--vp-c-text-2); margin-top: 4px; margin-bottom: 0;">5 Academic Delegates</p>
+  </div>
+</div>
 
 ### Regional Geographic Coverage
 Delegates traveled from across 6 districts in Maharashtra:
@@ -39,9 +55,9 @@ Advancing gender equity in software engineering is a core objective of MSC PRPCE
 
 | Edition Year | Total Verified Delegates | Female Delegates | Male Delegates | Female Representation Ratio |
 | :--- | :--- | :--- | :--- | :--- |
-| **2024 Edition** | 385 | 119 | 266 | **30.9%** |
-| **2025 Edition** | 492 | 187 | 305 | **38.0% (+ 7.1% Growth)** |
-| **2026 Target** | 600 (Est) | 250+ (Target) | 350 | **42.0%+ Target** |
+| **2024 Edition** | 180+ | 56 | 124+ | **31.0%** |
+| **2025 Edition** | 180+ | 68 | 112+ | **38.0%** |
+| **2026 Target** | 500 (Target) | 200+ (Target) | 300 | **40.0%+ Target** |
 
 ---
 

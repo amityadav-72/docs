@@ -15,8 +15,8 @@ This section compiles consolidated post-event evaluation reports, demographic an
 
 <div class="stat-grid">
   <div class="stat-card">
-    <div class="stat-value">1,400+</div>
-    <div class="stat-label">Total Unique Attendees</div>
+    <div class="stat-value">360+</div>
+    <div class="stat-label">Verified Delegates</div>
   </div>
   <div class="stat-card">
     <div class="stat-value">18+</div>
@@ -38,17 +38,28 @@ This section compiles consolidated post-event evaluation reports, demographic an
 
 The impact of each conference edition is evaluated across five strategic dimensions:
 
-```
-┌────────────────────────────────────────────────────────────────────────┐
-│                        IMPACT EVALUATION PILLARS                       │
-├──────────────────┬──────────────────┬─────────────────┬────────────────┤
-│ 1. Attendance &  │ 2. Technical     │ 3. Career &     │ 4. Community   │
-│ Demographics:    │ Pedagogy:        │ Recruitment:    │ Ecosystem:     │
-│ College balance, │ Practical skills │ Internships and │ Open-source PRs│
-│ gender ratio,    │ acquired; CSAT   │ placements via  │ and user group │
-│ turnout rates.   │ survey ratings.  │ sponsor booths. │ memberships.   │
-└──────────────────┴──────────────────┴─────────────────┴────────────────┘
-```
+<div class="pillar-grid">
+  <div class="pillar-card">
+    <div class="pillar-num">PILLAR 01</div>
+    <div class="pillar-title">Attendance & Diversity</div>
+    <p class="pillar-desc">Regional college balance, female representation ratios, verified physical turnout conversion, and retention.</p>
+  </div>
+  <div class="pillar-card">
+    <div class="pillar-num">PILLAR 02</div>
+    <div class="pillar-title">Technical Mastery</div>
+    <p class="pillar-desc">Practical enterprise skills acquired, benchmark comprehension, and composite CSAT satisfaction ratings.</p>
+  </div>
+  <div class="pillar-card">
+    <div class="pillar-num">PILLAR 03</div>
+    <div class="pillar-title">Career & Placements</div>
+    <p class="pillar-desc">Student candidate screenings, direct paid internship offers, and interviews facilitated through sponsor lounges.</p>
+  </div>
+  <div class="pillar-card">
+    <div class="pillar-num">PILLAR 04</div>
+    <div class="pillar-title">Community Momentum</div>
+    <p class="pillar-desc">Student open-source pull requests merged, weekly study jam participation, and active club membership growth.</p>
+  </div>
+</div>
 
 ---
 
@@ -56,15 +67,15 @@ The impact of each conference edition is evaluated across five strategic dimensi
 
 <div class="quick-nav-grid">
   <a href="/dotnet-conf/reports/editions" class="quick-nav-card">
-    <div class="quick-nav-title">📑 Consolidated Edition Reports</div>
+    <div class="quick-nav-title">Consolidated Edition Reports</div>
     <p class="quick-nav-desc">Executive post-event reports summarizing logistics, execution, financials, and outcomes for each year.</p>
   </a>
   <a href="/dotnet-conf/reports/impact" class="quick-nav-card">
-    <div class="quick-nav-title">🌍 Community & Educational Impact</div>
+    <div class="quick-nav-title">Community & Educational Impact</div>
     <p class="quick-nav-desc">Demographic analysis, geographic reach across Vidarbha, gender diversity, and student career outcomes.</p>
   </a>
   <a href="/dotnet-conf/reports/statistics" class="quick-nav-card">
-    <div class="quick-nav-title">📊 Historical Statistics & Analytics</div>
+    <div class="quick-nav-title">Historical Statistics & Analytics</div>
     <p class="quick-nav-desc">Multi-year comparative data tables, registration vs attendance conversions, and rating benchmarks.</p>
   </a>
 </div>

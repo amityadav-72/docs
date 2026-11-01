@@ -15,13 +15,13 @@ The conference aims to grow sustainably while maintaining its core mission of ze
 
 ```
 [ Phase 1: Foundation (2024–2025) ]
-• Single-day format • 350–500 delegates • Regional college presence
+• 3-day technical sessions in Seminar Hall • 180+ delegates • Microsoft Employees & MVPs
 
-[ Phase 2: Consolidation (2026–2027) ]
-• Dual & triple track • 600–750 delegates • Integrated hackathon & career lounge
+[ Phase 2: Active Flagship (2026) ]
+• 1-day mega event • 500 target delegates • Intelligent Cloud & Semantic Kernel
 
-[ Phase 3: Regional Hub (2028–2030) ]
-• 2-day state-level tech festival • 1,000+ delegates • Hybrid broadcast across Central India
+[ Phase 3: Regional Hub (Future Expansion) ]
+• State-level tech conference • Scaled delegates • Broadcast across Central India
 ```
 
 ---
@@ -31,7 +31,7 @@ The conference aims to grow sustainably while maintaining its core mission of ze
 When an incoming Executive Committee assumes office, they must execute the following 8-step protocol:
 
 - [ ] **Step 1: Formal Charter Adoption (Month -6):** Convene the executive committee, select the Edition Chair, and draft the preliminary proposal using [Template 2: Edition Planning Document](/dotnet-conf/knowledge-base/templates).
-- [ ] **Step 2: Institutional Approvals (Month -5):** Obtain written sanction from the Head of Computer Science and the College Principal.
+- [ ] **Step 2: Institutional Approvals (Month -5):** Obtain written sanction from the Faculty Advisor and the College Principal.
 - [ ] **Step 3: Theme & Track Definition (Month -5):** Align the conference theme with current Microsoft and .NET Foundation release cycles (e.g. .NET 11, .NET 12).
 - [ ] **Step 4: Central Sponsor Directory Review (Month -4):** Review [Sponsor Directory](/dotnet-conf/sponsors/directory) and [Sponsorship History](/dotnet-conf/sponsors/history) to initiate early-renewal discussions with past corporate partners.
 - [ ] **Step 5: Call for Speakers (CFS) Launch (Month -3.5):** Publish the CFP on platforms like Sessionize and conduct direct outreach via the [Speaker Directory](/dotnet-conf/speakers/directory).

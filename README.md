@@ -4,7 +4,7 @@ Official documentation repository and knowledge base for **Microsoft Student Clu
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 1. **Install dependencies:**
    ```bash
@@ -24,7 +24,7 @@ Official documentation repository and knowledge base for **Microsoft Student Clu
 
 ---
 
-## 📁 How to Add New Documentation Pages
+## How to Add New Documentation Pages
 
 All documentation is stored as pure **Markdown (`.md`) files**.
 
@@ -49,6 +49,6 @@ All documentation is stored as pure **Markdown (`.md`) files**.
 
 ---
 
-## 🛡️ License
+## License
 
 Maintained by **Microsoft Student Club PRPCEM**.

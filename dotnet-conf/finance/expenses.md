@@ -19,12 +19,12 @@ This ledger catalogs itemized expenditures across major operational categories f
 
 | Voucher ID | Expense Category | Payee / Vendor | Description & Scope | Tax Invoice Ref | Amount Incurred | Payment Mode | Reconciled By |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| `VCH-25-01` | Catering & Food | Royal Caterers Amravati | Hot buffet lunch, 2 tea breaks (550 Pax) | `INV/RC/2025/112` | ₹40,200 | Bank Transfer | Accounts Lead |
-| `VCH-25-02` | Stage Branding & Flex | Spectrum Print Works | Dual stage backdrops, 12 standees | `INV/SP/2025/089` | ₹20,500 | Bank Transfer | Logistics Lead |
-| `VCH-25-03` | Audio-Visual Rental | SoundCraft Technologies | 16-channel mixer, mics, LED lighting | `INV/SC/2025/044` | ₹14,000 | Cheque Payment | Operations Head|
-| `VCH-25-04` | Speaker Travel & Hotel | Grand Regency & Indigo | Outstation MVP flight + 2 nights hotel | `INV/GR/2025/301` | ₹13,400 | Direct Corporate | Treasurer |
-| `VCH-25-05` | Attendee ID Cards | Spectrum Print Works | 700 Thermal-printed PVC ID cards | `INV/SP/2025/094` | ₹3,600 | Direct Cash/UPI | Registration Lead|
-| `VCH-25-06` | Stage Hospitality & Misc | Local Market Merchants | Green room dry fruits, water, bouquet | Cash Memos 01-08 | ₹2,100 | Cash Voucher | Faculty Advisor |
+| `VCH-25-01` | Catering & Food | Royal Caterers Amravati | Hot buffet lunch, 2 tea breaks (200 Pax) | `INV/RC/2026/112` | ₹40,200 | Bank Transfer | Accounts Lead |
+| `VCH-25-02` | Stage Branding & Flex | Spectrum Print Works | Seminar Hall stage backdrop, 8 standees | `INV/SP/2026/089` | ₹20,500 | Bank Transfer | Logistics Lead |
+| `VCH-25-03` | Audio-Visual Rental | SoundCraft Technologies | 16-channel mixer, mics, LED lighting | `INV/SC/2026/044` | ₹14,000 | Cheque Payment | Operations Head|
+| `VCH-25-04` | Speaker Travel & Hotel | Grand Regency & Indigo | Outstation MVP travel + hotel stay | `INV/GR/2026/301` | ₹13,400 | Direct Corporate | Treasurer |
+| `VCH-25-05` | Attendee ID Cards | Spectrum Print Works | 200 Thermal-printed PVC ID cards | `INV/SP/2026/094` | ₹3,600 | Direct Cash/UPI | Registration Lead|
+| `VCH-25-06` | Stage Hospitality & Misc | Local Market Merchants | Green room refreshments, water, mementos | Cash Memos 01-08 | ₹2,100 | Cash Voucher | Faculty Advisor |
 | **Total** | — | — | — | — | **₹83,400** | — | **Audited OK** |
 
 ---
@@ -35,22 +35,38 @@ This ledger catalogs itemized expenditures across major operational categories f
 
 | Voucher ID | Expense Category | Payee / Vendor | Scope of Expense | Amount Incurred | Reconciled Date |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| `VCH-24-01` | Catering & Hospitality | Royal Caterers Amravati | Executive box lunch + morning/afternoon tea | ₹21,500 | Mar 20, 2024 |
-| `VCH-24-02` | Stage Production & Flex | Spectrum Print Works | Single auditorium backdrop & 6 standees | ₹13,200 | Mar 21, 2024 |
-| `VCH-24-03` | Speaker Logistics | Central Railways & Guest House | Outstation AC train fare + campus guest house | ₹7,600 | Mar 22, 2024 |
-| `VCH-24-04` | Badges & Stage Mementos | Local Memento Artisans | Wooden engraved mementos & badge paper inserts | ₹2,700 | Mar 24, 2024 |
+| `VCH-24-01` | Catering & Hospitality | Royal Caterers Amravati | Executive box lunch + morning/afternoon tea | ₹21,500 | Jan 14, 2025 |
+| `VCH-24-02` | Stage Production & Flex | Spectrum Print Works | Single Seminar Hall backdrop & 6 standees | ₹13,200 | Jan 15, 2025 |
+| `VCH-24-03` | Speaker Logistics | Central Railways & Guest House | Outstation AC travel fare + guest house | ₹7,600 | Jan 16, 2025 |
+| `VCH-24-04` | Badges & Stage Mementos | Local Memento Artisans | Wooden engraved mementos & badge paper inserts | ₹2,700 | Jan 18, 2025 |
 | **Total** | — | — | — | **₹45,000** | **Audited OK** |
 
 ---
 
 ## 3. Expense Categorization & Spend Distribution (Historical)
 
-```
-[ Catering & Hospitality: 48.2% ] ────────► Lunch, morning tea, speaker green room
-[ Stage Branding & Print: 24.6% ] ────────► Backdrops, standees, signage
-[ AV & Equipment Rental: 16.8% ] ─────────► Sound mixers, lapel mics, lighting
-[ Speaker Travel & Lodging: 10.4% ] ──────► Transit, hotel accommodations
-```
+<div class="stat-grid" style="margin: 1.5rem 0;">
+  <div class="stat-card">
+    <div class="stat-value" style="font-size: 1.6rem; color: #F25022;">48.2%</div>
+    <div class="stat-label">Catering & Food</div>
+    <p style="font-size: 0.8rem; color: var(--vp-c-text-2); margin-top: 4px; margin-bottom: 0;">Buffet lunch, 2 tea breaks, speaker hospitality</p>
+  </div>
+  <div class="stat-card">
+    <div class="stat-value" style="font-size: 1.6rem; color: #0078D4;">24.6%</div>
+    <div class="stat-label">Stage & Print</div>
+    <p style="font-size: 0.8rem; color: var(--vp-c-text-2); margin-top: 4px; margin-bottom: 0;">Backdrops, standees, PVC ID badges, banners</p>
+  </div>
+  <div class="stat-card">
+    <div class="stat-value" style="font-size: 1.6rem; color: #7FBA00;">16.8%</div>
+    <div class="stat-label">AV & Equipment</div>
+    <p style="font-size: 0.8rem; color: var(--vp-c-text-2); margin-top: 4px; margin-bottom: 0;">Sound mixers, wireless mics, stage lighting</p>
+  </div>
+  <div class="stat-card">
+    <div class="stat-value" style="font-size: 1.6rem; color: #FFB900;">10.4%</div>
+    <div class="stat-label">Speaker Logistics</div>
+    <p style="font-size: 0.8rem; color: var(--vp-c-text-2); margin-top: 4px; margin-bottom: 0;">Flight transit, hotel stay, station shuttles</p>
+  </div>
+</div>
 
 ---
 

@@ -44,7 +44,7 @@ This timetable represents the standardized minute-by-minute execution schedule f
 ### Phase 1: Pre-Conference SOP Checklist (T-30 Days to T-1 Day)
 - [ ] **T-30 Days:** All speaker abstracts and biographies confirmed on website.
 - [ ] **T-25 Days:** Sponsor logo print files approved and sent to merchandise partner.
-- [ ] **T-20 Days:** Auditorium booking confirmed in writing with Campus Estate Office.
+- [ ] **T-20 Days:** Seminar Hall / Auditorium booking confirmed in writing with Campus Estate Office.
 - [ ] **T-15 Days:** Catering vendor contract finalized and dietary preferences collected.
 - [ ] **T-10 Days:** Outstation speaker flight/train tickets booked and driver escorts assigned.
 - [ ] **T-7 Days:** Delegate registration closed; attendee database cleaned and deduplicated.
@@ -54,13 +54,13 @@ This timetable represents the standardized minute-by-minute execution schedule f
   - [ ] Test audio levels on all wireless lapel and handheld microphones.
   - [ ] Run 30-minute network stress test on stage leased-line internet connection.
   - [ ] Verify generator backup automatic switchover (simulated power cut).
-  - [ ] Assemble 600 delegate kits in sorted alphabetical distribution crates.
+  - [ ] Assemble delegate kits (up to 500 kits for 2026 Target) in sorted alphabetical distribution crates.
 
 ### Phase 2: Event-Day Execution SOP Checklist (Day 0)
 - [ ] **07:00 AM:** Hall doors unlocked; air conditioning pre-cooled to 22°C.
 - [ ] **08:00 AM:** QR check-in scanners active at registration entrance.
 - [ ] **08:45 AM:** VIP green room stocked with water, coffee, and refreshments.
-- [ ] **09:15 AM:** Auditorium doors closed for official opening ceremony; aisle ushers stationed.
+- [ ] **09:15 AM:** Main Hall doors closed for official opening ceremony; aisle ushers stationed.
 - [ ] **11:00 AM:** Morning tea setup verified in dining courtyard 15 minutes before break starts.
 - [ ] **01:15 PM:** Lunch buffet lines opened; volunteer lunch rotation dispatched in 2 shifts.
 - [ ] **05:00 PM:** Speaker mementos, shawls, and certificates arranged on presentation table.

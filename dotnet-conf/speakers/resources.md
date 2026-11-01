@@ -18,16 +18,16 @@ Dear [Speaker Name],
 
 Greetings from Microsoft Student Club at P. R. Pote (Patil) College of Engineering and Management (PRPCEM), Amravati, Maharashtra.
 
-On behalf of the Organizing Committee and the Department of Computer Science & Engineering, it is our privilege to cordially invite you to deliver a [Keynote / Technical Session] at .NET Conf Amravati [YEAR], scheduled to take place on [Event Date] at our Central Campus Auditorium in Amravati.
+On behalf of the Organizing Committee and Microsoft Student Club PRPCEM, it is our privilege to cordially invite you to deliver a [Keynote / Technical Session] at .NET Conf Amravati [YEAR], scheduled to take place on [Event Date] at our Central Campus Auditorium in Amravati.
 
 Following our successful previous editions—which gathered over [Past Attendees] verified engineers, Microsoft MVPs, and regional developers—.NET Conf Amravati has established itself as Central India's premier community technology conference.
 
-Our core theme for this edition is "[Event Theme]", focusing on deep architectural practices, cloud-native engineering, and modern developer tooling. Given your exceptional expertise in [Speaker Area of Expertise], we believe your insights would inspire and transform our audience of 500+ enthusiastic student and professional software engineers.
+Our core theme for this edition is "[Event Theme]", focusing on deep architectural practices, cloud-native engineering, and modern developer tooling. Given your exceptional expertise in [Speaker Area of Expertise], we believe your insights would inspire and transform our audience of student and professional software engineers.
 
 Session Details:
 - Format: In-Person Presentation & Live Code Demonstration
 - Duration: 45–60 Minutes (including 10 minutes audience Q&A)
-- Target Audience: Final-year Computer Science/IT undergraduates, regional software engineers, and faculty
+- Target Audience: Student developers, regional software engineers, and faculty
 - Preferred Topic Ideas: [Suggested Topic 1] or [Suggested Topic 2]
 
 Logistics & Hospitality:
@@ -41,8 +41,8 @@ With warm regards,
 
 [Student Lead Name]
 Technical Program Director | Microsoft Student Club PRPCEM
-Email: dotnetconf@mscprpcem.tech | Web: https://mscprpcem.tech/events/dotnetconf
-Endorsed by: Head of Department (CSE), PRPCEM Amravati
+Email: dotnetconfamt@prpotepatilengg.ac.in | Web: https://dnc.mscprpcem.tech/
+Endorsed by: Faculty Advisor, Microsoft Student Club PRPCEM
 ```
 
 ---

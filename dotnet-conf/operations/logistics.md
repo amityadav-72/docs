@@ -11,39 +11,54 @@ A technical conference of scale succeeds or fails on the strength of its physica
 
 ## 1. Venue Architecture & Capacity
 
-```
-┌────────────────────────────────────────────────────────────────────────┐
-│                        PRPCEM CAMPUS LAYOUT                            │
-│                                                                        │
-│   [ MAIN AUDITORIUM ]        [ CENTRAL ATRIUM ]     [ SEMINAR HALL A ] │
-│   • Capacity: 450 pax        • Registration Kiosks  • Capacity: 180 pax│
-│   • Track 1: Keynote/Cloud   • Sponsor Booth Pav.   • Track 2: AI/Labs │
-│   • Dual 4K Laser Projection • Refreshments/Tea     • Ultra HD Display │
-│                              • Career Lounge                           │
-│                                                                        │
-│   [ COMPUTER LAB 1 & 2 ]     [ VIP GREEN ROOM ]     [ DINING AREA ]    │
-│   • 90 Workstations (Labs)   • Speaker Briefing     • Buffet Service   │
-└────────────────────────────────────────────────────────────────────────┘
-```
+<div class="quick-nav-grid" style="margin: 1.5rem 0;">
+  <div class="stat-card" style="text-align: left;">
+    <div style="font-weight: 700; color: #00A4EF; margin-bottom: 4px;">PRPCEM Seminar Hall</div>
+    <div style="font-size: 0.88rem; color: var(--vp-c-text-2);"><strong>Capacity:</strong> 180+ Pax Tiered Hall<br><strong>Historical Role:</strong> Host venue for 2024 & 2025 Editions<br><strong>AV:</strong> Interactive Smart Podium & UHD Dual Projection</div>
+  </div>
+  <div class="stat-card" style="text-align: left;">
+    <div style="font-weight: 700; color: #0078D4; margin-bottom: 4px;">Main Central Auditorium</div>
+    <div style="font-size: 0.88rem; color: var(--vp-c-text-2);"><strong>Capacity:</strong> 450–500 Pax Tiered Seating<br><strong>Role:</strong> 2026 1-Day Mega Conference Main Stage<br><strong>AV:</strong> Dual 4K Laser Projection Screens</div>
+  </div>
+  <div class="stat-card" style="text-align: left;">
+    <div style="font-weight: 700; color: #7FBA00; margin-bottom: 4px;">Central Atrium & Foyer</div>
+    <div style="font-size: 0.88rem; color: var(--vp-c-text-2);"><strong>Area:</strong> 4,000 sq ft Covered Floor<br><strong>Focus:</strong> QR Check-in Desks<br><strong>Expo:</strong> Sponsor Booths & Career Lounge</div>
+  </div>
+  <div class="stat-card" style="text-align: left;">
+    <div style="font-weight: 700; color: #FFB900; margin-bottom: 4px;">Computer Labs 1 & 2</div>
+    <div style="font-size: 0.88rem; color: var(--vp-c-text-2);"><strong>Workstations:</strong> 90 Intel Core i7 PCs<br><strong>Focus:</strong> Guided Technical Labs<br><strong>Setup:</strong> VS 2022/2026, Docker & Local AI</div>
+  </div>
+</div>
 
 ### Venue Specifications
-- **Central Main Auditorium:** 450 tiered theater seats, acoustic wall paneling, dual 4K laser projection screens (200-inch diagonal), motorized stage curtains, and central air conditioning.
-- **Seminar Hall A (Track 2):** 180 tiered lecture hall seats, interactive smart podium, and dual high-lumen auxiliary projection for parallel specialized tracks.
-- **Computer Labs 1 & 2:** 90 networked Intel Core i7 workstations pre-configured with Visual Studio 2022/2025, VS Code, .NET SDKs, Docker Desktop, and Git for hands-on guided workshops.
-- **Central Atrium & Foyer:** 4,000 sq ft covered space accommodating 8 sponsor exhibition booths, 4 self-service QR registration desks, and morning/afternoon high-tea service.
+- **PRPCEM Seminar Hall:** 180+ tiered lecture hall seats, interactive smart podium, and dual high-lumen auxiliary projection; served as the dedicated host venue for both the 2024 and 2025 3-day editions.
+- **Central Main Auditorium:** 450–500 tiered theater seats, acoustic wall paneling, dual 4K laser projection screens (200-inch diagonal), motorized stage curtains, and central air conditioning; allocated for the 2026 1-day mega event.
+- **Computer Labs 1 & 2:** 90 networked Intel Core i7 workstations pre-configured with Visual Studio, VS Code, .NET SDKs, Docker Desktop, and Git for hands-on guided workshops.
+- **Central Atrium & Foyer:** 4,000 sq ft covered space accommodating sponsor exhibition booths, self-service QR registration desks, and morning/afternoon high-tea service.
 
 ---
 
 ## 2. Stage Audio-Visual (AV) Engineering
 
-```
-[ Stage Presentation Laptop ] ───► HDMI Splitter / Matrix Switcher
-                                         │
-                ┌────────────────────────┴────────────────────────┐
-                ▼                                                 ▼
-     [ Primary 4K Projector ]                          [ Stage Confidence Monitor ]
-     (Audience View - 200 inch)                        (Speaker View - 42 inch)
-```
+<div class="diagram-container">
+  <div class="diagram-root">
+    <div class="diagram-label">Stage Presentation Source</div>
+    <div class="diagram-sub">HDMI 2.1 / USB-C DisplayPort Matrix Switcher</div>
+  </div>
+  <div class="diagram-connector-down"></div>
+  <div class="diagram-branches">
+    <div class="diagram-branch-card">
+      <span class="badge badge-info">Audience View</span>
+      <div class="diagram-branch-title">Primary 4K Laser Projector</div>
+      <div class="diagram-branch-meta">200-inch Motorized High-Gain Screen (1920x1080p, 60fps)</div>
+    </div>
+    <div class="diagram-branch-card highlight">
+      <span class="badge badge-success">Speaker View</span>
+      <div class="diagram-branch-title">Stage Confidence Monitor</div>
+      <div class="diagram-branch-meta">42-inch Low-Profile Floor Display with Countdown Clock</div>
+    </div>
+  </div>
+</div>
 
 - **Audio Mixing:** 16-channel digital sound mixing console operated by a dedicated sound engineer.
 - **Microphone Allocation:**
@@ -88,5 +103,10 @@ A common failure point at developer conferences is network collapse when hundred
 
 ## 6. Transportation & Transit Logistics
 
+### Speaker Travel Scheduling & The Holiday Shift
+- **Weekday Speaker Travel Bottleneck (2024 & 2025):** The 2024 (Jan 9–11, 2025) and 2025 (Jan 7–9, 2026) editions took place as 3-day events spanning working weekdays (Thursday and Friday). Industry keynote speakers (Microsoft Employees and MVPs) had demanding enterprise work commitments, making mid-week travel to Amravati challenging due to corporate leave constraints. Simultaneously, student attendees had regular weekday college lectures and labs.
+- **Permanent Solution for 2026:** Transitioning the conference to an intensive 1-day mega event on **December 25 (Christmas Public Holiday)** allows outstation corporate speakers from Pune, Mumbai, Hyderabad, and Bengaluru to travel freely without weekday leave restrictions, guaranteeing full attendance and seamless transit.
+
+### Transit & Concierge Protocols
 - **Railway & Airport Transfers:** MSC PRPCEM fleet vehicles dispatched for guest pickups from Badnera Junction (BD), Amravati Railway Station (AMI), or Dr. Babasaheb Ambedkar International Airport (Nagpur - NAG).
 - **Driver Escort Protocol:** Student concierge team verifies flight/train schedules 2 hours in advance and greets arriving speakers at the platform/terminal exit with official conference name placards.

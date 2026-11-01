@@ -15,16 +15,28 @@ This operational section codifies the institutional knowledge accumulated across
 
 Conference operations are structured into five core pillars:
 
-```
-┌────────────────────────────────────────────────────────────────────────┐
-│                        OPERATIONAL PILLARS                             │
-├──────────────────┬──────────────────┬─────────────────┬────────────────┤
-│ 1. SOPs & Run    │ 2. Logistics &   │ 3. Volunteers & │ 4. Vendors &   │
-│ Minute-by-minute │ Venues, Wi-Fi,   │ Team rosters,   │ Directory,     │
-│ execution guides │ AV calibration,  │ training, shift │ contracts, and │
-│ and checklists.  │ and catering.    │ rotations.      │ accountability.│
-└──────────────────┴──────────────────┴─────────────────┴────────────────┘
-```
+<div class="pillar-grid">
+  <div class="pillar-card">
+    <div class="pillar-num">PILLAR 01</div>
+    <div class="pillar-title">SOPs & Master Run Sheets</div>
+    <p class="pillar-desc">Minute-by-minute stage timing cues, operational playbooks, and pre/post checklists.</p>
+  </div>
+  <div class="pillar-card">
+    <div class="pillar-num">PILLAR 02</div>
+    <div class="pillar-title">Logistics & Infrastructure</div>
+    <p class="pillar-desc">Auditorium acoustics, high-density Wi-Fi mesh, generator backup, and catering flow.</p>
+  </div>
+  <div class="pillar-card">
+    <div class="pillar-num">PILLAR 03</div>
+    <div class="pillar-title">Volunteers & Crew</div>
+    <p class="pillar-desc">Leadership matrices, volunteer recruitment screening, and 3-hour alternating shift roasters.</p>
+  </div>
+  <div class="pillar-card">
+    <div class="pillar-num">PILLAR 04</div>
+    <div class="pillar-title">Vendors & Accountability</div>
+    <p class="pillar-desc">Permanent vendor directory, past reliability performance scores, and 3-quote comparisons.</p>
+  </div>
+</div>
 
 ---
 
@@ -32,23 +44,23 @@ Conference operations are structured into five core pillars:
 
 <div class="quick-nav-grid">
   <a href="/dotnet-conf/operations/sops" class="quick-nav-card">
-    <div class="quick-nav-title">📋 Planning SOPs & Run Sheets</div>
+    <div class="quick-nav-title">Planning SOPs & Run Sheets</div>
     <p class="quick-nav-desc">Pre-event, event-day, and post-event checklists, minute-by-minute run sheets, and emergency protocols.</p>
   </a>
   <a href="/dotnet-conf/operations/logistics" class="quick-nav-card">
-    <div class="quick-nav-title">🏛️ Logistics & Infrastructure</div>
+    <div class="quick-nav-title">Logistics & Infrastructure</div>
     <p class="quick-nav-desc">Auditorium blueprints, stage AV engineering, high-density networking, catering, and transport.</p>
   </a>
   <a href="/dotnet-conf/operations/team" class="quick-nav-card">
-    <div class="quick-nav-title">👥 Team & Volunteer Management</div>
+    <div class="quick-nav-title">Team & Volunteer Management</div>
     <p class="quick-nav-desc">Organizing committee structures, leadership matrices, volunteer recruitment, and shift roasters.</p>
   </a>
   <a href="/dotnet-conf/operations/vendors" class="quick-nav-card">
-    <div class="quick-nav-title">🏢 Permanent Vendor Directory</div>
+    <div class="quick-nav-title">Permanent Vendor Directory</div>
     <p class="quick-nav-desc">Central records of catering firms, printers, AV suppliers, hotel partners, and past performance ratings.</p>
   </a>
   <a href="/dotnet-conf/operations/risk-legal" class="quick-nav-card">
-    <div class="quick-nav-title">⚖️ Legal, Risk & Brand Compliance</div>
+    <div class="quick-nav-title">Legal, Risk & Brand Compliance</div>
     <p class="quick-nav-desc">Institutional sanctions, Microsoft brand guidelines, attendee privacy policies, and incident protocols.</p>
   </a>
 </div>

@@ -13,16 +13,16 @@ This page chronicles the formal recognitions, community impact metrics, and inst
 
 <div class="stat-grid">
   <div class="stat-card">
-    <div class="stat-value">1,400+</div>
-    <div class="stat-label">Unique Participants</div>
+    <div class="stat-value">360+</div>
+    <div class="stat-label">Verified Delegates</div>
   </div>
   <div class="stat-card">
     <div class="stat-value">18+</div>
     <div class="stat-label">Partner Colleges</div>
   </div>
   <div class="stat-card">
-    <div class="stat-value">12+</div>
-    <div class="stat-label">Corporate Sponsors</div>
+    <div class="stat-value">$12.8k+</div>
+    <div class="stat-label">In-Kind Grants & Value</div>
   </div>
   <div class="stat-card">
     <div class="stat-value">4.8 / 5</div>
@@ -37,7 +37,7 @@ This page chronicles the formal recognitions, community impact metrics, and inst
 ### P. R. Pote Patil College of Engineering and Management
 - **Best Student Technical Initiative (2024 & 2025):** Awarded by the College Academic Council for outstanding cross-institutional technical mobilization, flawless logistics, and complete financial self-sufficiency.
 - **NAAC / NBA Accreditation Criterion Commendation:** Singled out during institutional peer team review as an exemplary best practice for *"Student-Led Industry-Academia Symposia and Community Knowledge Transfer"*.
-- **Departmental Recognition:** The Department of Computer Science & Engineering commended the organizing committee for engaging over 40+ student volunteers annually in professional conference management.
+- **Institutional Commendation:** Recognized for engaging over 35+ student volunteers annually in professional conference management.
 
 ---
 
@@ -59,7 +59,7 @@ This page chronicles the formal recognitions, community impact metrics, and inst
 | :--- | :--- | :--- | :--- |
 | **2024** | Regional Daily Print Press | Feature article on *"PRPCEM Students Host Landmark Microsoft .NET Developer Symposium in Amravati"* | 100,000+ print readership across Amravati district |
 | **2024** | Local Tech Community Portals | Live coverage of keynote address and .NET 8 modern cloud architecture workshops | 15,000+ online impressions |
-| **2025** | Vidarbha Education News | Extended report highlighting participation from 14 colleges and dual-track enterprise lab sessions | Regional academic visibility |
+| **2025** | Vidarbha Education News | Extended report highlighting participation from regional colleges and dual-track enterprise lab sessions | Regional academic visibility |
 | **2025** | LinkedIn Tech Community | Over 350+ organic attendee testimonials and badge shares under `#dotNETConfAmravati` | 180,000+ organic impressions |
 
 ---
@@ -68,7 +68,7 @@ This page chronicles the formal recognitions, community impact metrics, and inst
 
 Copies of official appreciation letters and institutional commendations are cataloged in the [Central Resource Archive](/dotnet-conf/archive/):
 
-1. **Faculty Advisor Commendation Letter (Ref: PRPCEM/CSE/2024/M01):** Congratulating the 2024 steering committee on zero financial deficit and zero safety incidents.
+1. **Faculty Advisor Commendation Letter (Ref: PRPCEM/MSC/2024/M01):** Congratulating the 2024 steering committee on zero financial deficit and zero safety incidents.
 2. **Keynote Speaker Commendations (2024 & 2025):** Commendations from invited industry architects acknowledging exceptional hospitality, audio-visual execution, and audience caliber.
 3. **Sponsor Testimonials:** Formal letters from participating IT companies praising the candidate screening and booth organization.
 
@@ -78,12 +78,14 @@ Copies of official appreciation letters and institutional commendations are cata
 
 | Metric | 2024 Inaugural | 2025 Edition | 2026 Target |
 | :--- | :--- | :--- | :--- |
-| **Total Registrations** | 520 | 710 | 850+ |
-| **Verified Attendees** | 385 | 492 | 600+ |
-| **Women in Tech Ratio** | 31% | 38% | 45% |
+| **Total Registrations** | 240+ | 300+ | 700+ |
+| **Verified Attendees** | 180+ | 180+ | 500 (Target) |
+| **Women in Tech Ratio** | 31% | 38% | 40% |
 | **External College Delegates** | 18% | 34% | 40% |
-| **Dual Track Sessions** | 1 Track (6 sessions) | 2 Tracks (9 sessions) | 3 Tracks (12 sessions) |
-| **Net Sponsor Funding** | ₹45,000 | ₹85,000 | ₹1,20,000 |
+| **Sessions & Speakers** | 5 Speakers | 3 Keynote Speakers | 8+ Planned Sessions |
+| **College Institutional Support** | 100% PRPCEM (₹0 External Cash) | 100% PRPCEM (₹0 External Cash) | 100% PRPCEM Institutional Host |
+| **In-Kind Developer Grants** | Institutional Support | $3,800 USD (.xyz + JetBrains) | $9,000+ USD (.xyz + JetBrains + Packt) |
+| **Platform Partnership** | Community Managed | Sessionize CFS & Scheduling | Sessionize CFS & Scheduling |
 | **Average CSAT Score** | 4.6 / 5.0 | 4.8 / 5.0 | 4.9 / 5.0 |
 
 ---
